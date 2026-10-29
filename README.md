@@ -40,10 +40,8 @@
 | [توسعه، تست و انتشار نسخه جدید](docs/fa/DEVELOPMENT.fa.md) | برنامه‌نویس‌ها |
 
 ## سازندگان
-
+- **علیرضا کهن ترابی** - github.com/AlirezaKohantorabi](https://github.com/AlirezaKohantorabi)) 
 - **خسرو عظیمی** — [khosro-azimi.ir](https://khosro-azimi.ir) — [github.com/khosro-web](https://github.com/khosro-web)
-- **علیرضا کهن‌ترابی** — [github.com/AlirezaKohantorabi](https://github.com/AlirezaKohantorabi)
-
 مجوز: [GPL-2.0-or-later](LICENSE)
 
 </div>
