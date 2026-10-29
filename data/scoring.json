@@ -1,0 +1,40 @@
+{
+  "schema_version": "2.0.0",
+  "weights": {
+    "interest_match": 25,
+    "work_arrangement_match": 12,
+    "client_type_match": 12,
+    "work_mode_match": 12,
+    "entry_accessibility_match": 10,
+    "income_match": 8,
+    "stability_match": 7,
+    "insurance_match": 6,
+    "stress_match": 3,
+    "responsibility_match": 2,
+    "routine_match": 3
+  },
+  "meaning_interest_bonus": 10,
+  "score_bounds": {
+    "min": 8,
+    "max": 98
+  },
+  "grouping": {
+    "primary_min_score": 58,
+    "primary_max_count": 6,
+    "primary_min_count": 3,
+    "compromise_min_score": 45,
+    "compromise_max_count": 4,
+    "low_shown_count": 3
+  },
+  "penalties": {
+    "individual_client_no_fit": 16,
+    "individual_client_poor_fit": 9,
+    "remote_only_mismatch": 22,
+    "novice_urgent_very_hard": 24,
+    "novice_urgent_hard": 15,
+    "novice_short_very_hard": 12,
+    "insurance_unlikely": 10,
+    "no_on_call_critical": 18,
+    "no_on_call_other": 10
+  }
+}

@@ -1,0 +1,5361 @@
+{
+  "schema_version": "2.0.0",
+  "roles": [
+    {
+      "id": "frontend_developer",
+      "title_fa": "توسعه‌دهنده فرانت‌اند",
+      "title_en": "Front-end Developer",
+      "category_id": "software_development",
+      "plain_description": "هر سایت یا اپلیکیشنی که باز می‌کنی یه ظاهر داره: دکمه‌ها، منوها، عکس‌ها و صفحه‌هایی که می‌بینی و روشون کلیک می‌کنی. توسعه‌دهنده فرانت‌اند کسیه که این ظاهر رو با کد می‌سازه تا روی گوشی و کامپیوتر درست و قشنگ نمایش داده بشه. مثل نجاری که از روی نقشه طراح داخلی، کابینت و دکور خونه رو واقعاً می‌سازه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "visual",
+        "product",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "digital_agency",
+        "ecommerce",
+        "startup",
+        "in_house_it"
+      ],
+      "essential_skills": [
+        "HTML/CSS",
+        "JavaScript/TypeScript",
+        "React یا Vue",
+        "Git",
+        "مصرف API"
+      ],
+      "recommended_entry_route": "یک صفحه واقعی و واکنش‌گرا بسازید؛ JavaScript و یک فریم‌ورک را عمیق یاد بگیرید و پروژه را منتشر کنید.",
+      "market_caveat": "برای سطح جونیور رقابت می‌تواند بالا باشد؛ نمونه‌کار و توان حل مسئله مهم‌اند.",
+      "labels": [
+        "market_opportunity_relatively_good",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "backend_developer",
+      "title_fa": "توسعه‌دهنده بک‌اند",
+      "title_en": "Back-end Developer",
+      "category_id": "software_development",
+      "plain_description": "پشت هر سایت یا اپلیکیشن یه بخش نامرئی هست که کارهای اصلی رو انجام می‌ده: ثبت‌نام کاربرها، ذخیره سفارش‌ها، حساب‌وکتاب پرداخت‌ها و نگه‌داشتن اطلاعات. توسعه‌دهنده بک‌اند همین بخش پشت‌صحنه رو می‌سازه. مثل آشپزخونه یه رستوران: مشتری فقط غذا رو می‌بینه، ولی کار اصلی اونجا انجام می‌شه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 4,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "systems",
+        "problem_solving",
+        "data",
+        "automation"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "bank_fintech",
+        "ecommerce",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "یکی از Python/Java/C#/PHP/Node.js",
+        "SQL",
+        "API",
+        "Git",
+        "آزمون و امنیت پایه"
+      ],
+      "recommended_entry_route": "یک API مستند همراه دیتابیس، احراز هویت، تست و استقرار بسازید.",
+      "market_caveat": "سفارش‌های مستقل ممکن‌اند اما کار سازمانی و نگهداری بلندمدت رایج‌تر است.",
+      "labels": [
+        "requires_strong_foundation",
+        "market_opportunity_relatively_good",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "fullstack_developer",
+      "title_fa": "توسعه‌دهنده فول‌استک",
+      "title_en": "Full-stack Developer",
+      "category_id": "software_development",
+      "plain_description": "توسعه‌دهنده فول‌استک هم ظاهر سایت یا اپلیکیشن (چیزی که کاربر می‌بینه) رو می‌سازه و هم بخش پشت‌صحنه (جایی که اطلاعات ذخیره و پردازش می‌شه) رو. مثل پیمانکاری که هم نما و دکور ساختمون رو اجرا می‌کنه و هم لوله‌کشی و برق‌کشیش رو. معمولاً توی تیم‌های کوچیک و استارتاپ‌ها خیلی به کار میاد.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "product",
+        "problem_solving",
+        "automation"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "digital_agency",
+        "ecommerce",
+        "smb"
+      ],
+      "essential_skills": [
+        "فرانت‌اند",
+        "بک‌اند",
+        "SQL",
+        "API",
+        "استقرار"
+      ],
+      "recommended_entry_route": "یک محصول کوچک end-to-end از رابط کاربری تا دیتابیس و استقرار تحویل دهید.",
+      "market_caveat": "گستردگی مهارت نباید جای عمق کافی در یک بخش را بگیرد.",
+      "labels": [
+        "requires_strong_foundation",
+        "market_opportunity_relatively_good",
+        "high_income_ceiling",
+        "remote_compatible",
+        "freelance_possible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "wordpress_developer",
+      "title_fa": "توسعه‌دهنده وردپرس",
+      "title_en": "WordPress Developer",
+      "category_id": "software_development",
+      "plain_description": "وردپرس یه ابزار خیلی معروفه که بخش بزرگی از سایت‌های دنیا باهاش ساخته شدن؛ از وبلاگ و سایت شرکتی تا فروشگاه اینترنتی. توسعه‌دهنده وردپرس برای آدم‌ها و کسب‌وکارها سایت می‌سازه، ظاهرش رو مطابق سلیقه‌شون درست می‌کنه، امکانات تازه بهش اضافه می‌کنه و مراقبه سایت سریع و امن بمونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 5,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 5
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "visual",
+        "business",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "digital_agency",
+        "smb",
+        "ecommerce",
+        "freelance",
+        "in_house_it"
+      ],
+      "essential_skills": [
+        "WordPress",
+        "PHP مقدماتی تا متوسط",
+        "HTML/CSS/JS",
+        "WooCommerce",
+        "امنیت و بکاپ"
+      ],
+      "recommended_entry_route": "یک سایت سریع و امن با قالب فرزند، افزونه سبک و مستندات راه‌اندازی کنید.",
+      "market_caveat": "بازار پروژه‌ای وجود دارد؛ کیفیت، پشتیبانی، امنیت و رقابت قیمتی را جدی بگیرید.",
+      "labels": [
+        "entry_relatively_accessible",
+        "market_opportunity_relatively_good",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "ecommerce_website_specialist",
+      "title_fa": "متخصص راه‌اندازی فروشگاه اینترنتی",
+      "title_en": "E-commerce Website Specialist",
+      "category_id": "software_development",
+      "plain_description": "این آدم برای مغازه‌ها و کسب‌وکارها فروشگاه اینترنتی راه می‌ندازه؛ یعنی جایی که مشتری محصول رو ببینه، بخره، آنلاین پول بده و سفارشش براش ارسال بشه. کارش فقط ساختن سایت نیست؛ درگاه پرداخت، موجودی انبار، هزینه ارسال و گزارش فروش رو هم راه می‌ندازه. مثل کسی که یه مغازه کامل رو توی اینترنت برات افتتاح می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 5,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 5
+        }
+      },
+      "interest_tags": [
+        "business",
+        "visual",
+        "problem_solving",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "ecommerce",
+        "digital_agency",
+        "smb",
+        "freelance"
+      ],
+      "essential_skills": [
+        "WooCommerce یا پلتفرم مشابه",
+        "درگاه پرداخت",
+        "ارسال و موجودی",
+        "تحلیل فروش",
+        "سئو پایه"
+      ],
+      "recommended_entry_route": "یک فروشگاه آزمایشی تا ثبت سفارش، پرداخت آزمایشی و گزارش‌گیری کامل پیاده کنید.",
+      "market_caveat": "این نقش ترکیبی از فناوری و عملیات فروش است و ممکن است نیازمند پشتیبانی مشتری باشد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "market_opportunity_relatively_good",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "python_developer",
+      "title_fa": "توسعه‌دهنده پایتون",
+      "title_en": "Python Developer",
+      "category_id": "software_development",
+      "plain_description": "پایتون یه زبان برنامه‌نویسی ساده و همه‌کاره‌ست. توسعه‌دهنده پایتون با این زبان برنامه‌هایی می‌نویسه که مثلاً کارهای تکراری رو خودکار انجام بدن، اطلاعات رو از جاهای مختلف جمع کنن، پشت‌صحنه سایت‌ها رو بسازن یا با داده کار کنن. یه جورایی مثل آچار همه‌کاره‌ست که توی خیلی از شغل‌های IT به درد می‌خوره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "automation",
+        "data",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "enterprise_it",
+        "freelance",
+        "research"
+      ],
+      "essential_skills": [
+        "Python",
+        "ساختار داده",
+        "Git",
+        "آزمون",
+        "API یا اسکریپت‌نویسی"
+      ],
+      "recommended_entry_route": "با ابزارهای کوچک واقعی شروع کنید و کد، تست و راهنمای اجرا را در مخزن عمومی بگذارید.",
+      "market_caveat": "پایتون به‌تنهایی شغل نیست؛ مسیر را به وب، اتوماسیون، داده یا AI وصل کنید.",
+      "labels": [
+        "market_opportunity_relatively_good",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "java_dotnet_developer",
+      "title_fa": "توسعه‌دهنده Java یا .NET",
+      "title_en": "Java/.NET Developer",
+      "category_id": "software_development",
+      "plain_description": "Java و .NET دو تا ابزار قدرتمند برای ساختن نرم‌افزارهای بزرگ و جدی‌ان؛ مثل سامانه‌های بانکی، نرم‌افزارهای حسابداری یا سیستم‌های اداری سازمان‌ها. این برنامه‌نویس‌ها نرم‌افزارهایی می‌سازن که هزاران نفر هر روز ازشون استفاده می‌کنن و نباید خطا داشته باشن. بیشترشون توی شرکت‌ها و سازمان‌های بزرگ کار می‌کنن.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "systems",
+        "problem_solving",
+        "business"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "software_company",
+        "telecom",
+        "government_it"
+      ],
+      "essential_skills": [
+        "Java/Spring یا C#/.NET",
+        "SQL",
+        "API",
+        "تست",
+        "معماری پایه"
+      ],
+      "recommended_entry_route": "یک سامانه کسب‌وکاری با API، احراز هویت، تست و پایگاه داده بسازید.",
+      "market_caveat": "در سازمان‌های متوسط و بزرگ مناسب‌تر است؛ آگهی‌ها را بر اساس فناوری غالب شهر بررسی کنید.",
+      "labels": [
+        "requires_strong_foundation",
+        "market_opportunity_relatively_good",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "mobile_android_developer",
+      "title_fa": "توسعه‌دهنده اندروید",
+      "title_en": "Android Developer",
+      "category_id": "software_development",
+      "plain_description": "هر اپلیکیشنی که روی گوشی‌های اندرویدی (مثل سامسونگ و شیائومی) نصب می‌کنی رو یه نفر ساخته. توسعه‌دهنده اندروید همین اپ‌ها رو می‌سازه؛ از اپ تاکسی و خرید گرفته تا بازی و بانک. کارش اینه که اپ روی گوشی‌های مختلف درست کار کنه و استفاده ازش راحت باشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "product",
+        "visual",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "digital_agency",
+        "freelance"
+      ],
+      "essential_skills": [
+        "Kotlin",
+        "Android SDK",
+        "API",
+        "ذخیره‌سازی",
+        "تست و انتشار"
+      ],
+      "recommended_entry_route": "اپ کاربردی متصل به API بسازید و چرخه خطا، تست و انتشار را تمرین کنید.",
+      "market_caveat": "نیاز بازار بسته به تیم‌های فعال و نوع محصول تغییر می‌کند.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "mobile_ios_developer",
+      "title_fa": "توسعه‌دهنده iOS",
+      "title_en": "iOS Developer",
+      "category_id": "software_development",
+      "plain_description": "این آدم اپلیکیشن‌هایی می‌سازه که روی آیفون و آیپد اجرا می‌شن. کارش شبیه توسعه‌دهنده اندرویده، ولی مخصوص دستگاه‌های اپل. توی ایران به خاطر محدودیت‌های اپل، این مسیر شرایط خاص خودش رو داره و بیشتر برای شرکت‌هایی که اپ‌های بزرگ یا مشتری خارجی دارن جذابه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 3,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "product",
+        "visual"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "freelance"
+      ],
+      "essential_skills": [
+        "Swift",
+        "SwiftUI/UIKit",
+        "API",
+        "تست",
+        "چرخه انتشار اپ"
+      ],
+      "recommended_entry_route": "نمونه‌کار Swift بسازید و محدودیت‌های ابزار و انتشار را پیش از انتخاب مسیر بررسی کنید.",
+      "market_caveat": "بازار محلی می‌تواند محدودتر از وب یا اندروید باشد؛ به آگهی‌های واقعی شهر توجه کنید.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "flutter_developer",
+      "title_fa": "توسعه‌دهنده Flutter",
+      "title_en": "Flutter Developer",
+      "category_id": "software_development",
+      "plain_description": "فلاتر ابزاریه که باهاش می‌شه یه بار برنامه نوشت و اپلیکیشن رو هم برای اندروید و هم برای آیفون ساخت. توسعه‌دهنده فلاتر با یه بار زحمت، اپ رو برای هر دو نوع گوشی آماده می‌کنه. برای همین خیلی از شرکت‌ها و استارتاپ‌هایی که می‌خوان سریع و کم‌هزینه اپ بسازن، دنبال این آدم‌ها هستن.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "product",
+        "visual"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "digital_agency",
+        "freelance"
+      ],
+      "essential_skills": [
+        "Dart",
+        "Flutter",
+        "API",
+        "مدیریت وضعیت",
+        "تست"
+      ],
+      "recommended_entry_route": "یک اپ قابل استفاده با API و طراحی واکنش‌گرا بسازید و روی چند دستگاه آزمایش کنید.",
+      "market_caveat": "پروژه‌های کوچک وجود دارند، اما کیفیت معماری و نگهداری اهمیت دارد.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "desktop_application_developer",
+      "title_fa": "توسعه‌دهنده نرم‌افزار دسکتاپ",
+      "title_en": "Desktop Application Developer",
+      "category_id": "software_development",
+      "plain_description": "برنامه‌هایی که روی کامپیوتر نصب می‌کنی (مثل نرم‌افزار حسابداری، برنامه انبارداری یا نرم‌افزار مخصوص یه دستگاه) کار توسعه‌دهنده دسکتاپه. این آدم نرم‌افزارهایی می‌سازه که روی ویندوز یا سیستم‌های دیگه نصب می‌شن و کارهای روزمره یه شرکت یا مغازه رو راحت‌تر می‌کنن.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 4,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "systems",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "industrial_company",
+        "software_company",
+        "government_it"
+      ],
+      "essential_skills": [
+        "C#/.NET یا Java/Python",
+        "طراحی رابط",
+        "پایگاه داده",
+        "نصب و به‌روزرسانی"
+      ],
+      "recommended_entry_route": "یک برنامه کاربردی با داده محلی، گزارش و نصب‌کننده بسازید.",
+      "market_caveat": "فرصت‌ها پراکنده‌ترند؛ دامنه‌های صنعتی و نرم‌افزارهای قدیمی را هم بررسی کنید.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "embedded_firmware_developer",
+      "title_fa": "توسعه‌دهنده سیستم نهفته و Firmware",
+      "title_en": "Embedded/Firmware Developer",
+      "category_id": "software_development",
+      "plain_description": "توی خیلی از وسایل دوروبرت یه کامپیوتر خیلی کوچیک هست: ماشین لباسشویی، کولر، دستگاه کارت‌خوان، ماشین و حتی اسباب‌بازی‌ها. توسعه‌دهنده سیستم نهفته برای این کامپیوترهای کوچیک برنامه می‌نویسه تا دستگاه بدونه کی روشن بشه، چی رو اندازه بگیره و چه کاری بکنه. ترکیبی از برنامه‌نویسی و الکترونیکه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "hardware",
+        "systems",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "industrial_company",
+        "electronics_company",
+        "telecom",
+        "automotive",
+        "research"
+      ],
+      "essential_skills": [
+        "C/C++",
+        "میکروکنترلر",
+        "الکترونیک پایه",
+        "دیباگ سخت‌افزار",
+        "پروتکل‌ها"
+      ],
+      "recommended_entry_route": "با برد آموزشی و پروژه اندازه‌گیری/کنترل کوچک شروع کنید و مستندات فنی تهیه کنید.",
+      "market_caveat": "به تجهیزات، آزمایشگاه و فرصت‌های صنعتی وابسته‌تر از مشاغل صرفاً وب است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "api_integration_automation",
+      "title_fa": "متخصص یکپارچه‌سازی API و اتوماسیون",
+      "title_en": "API Integration & Automation Specialist",
+      "category_id": "software_development",
+      "plain_description": "خیلی از کسب‌وکارها چندتا نرم‌افزار جدا دارن که با هم حرف نمی‌زنن؛ مثلاً سایت فروش، نرم‌افزار حسابداری و سامانه پیامک. این متخصص این نرم‌افزارها رو به هم وصل می‌کنه تا کارها خودکار انجام بشه؛ مثلاً وقتی کسی خرید کرد، خودش فاکتور صادر بشه و برای مشتری پیامک بره. مثل لوله‌کشی که به جای آب، اطلاعات رو بین نرم‌افزارها جابه‌جا می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 5,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "automation",
+        "business",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "digital_agency",
+        "ecommerce",
+        "freelance",
+        "software_company"
+      ],
+      "essential_skills": [
+        "API/JSON",
+        "Python یا JavaScript",
+        "وب‌هوک",
+        "ابزارهای اتوماسیون",
+        "مدیریت خطا"
+      ],
+      "recommended_entry_route": "دو سرویس واقعی را با API یا وب‌هوک متصل کنید و لاگ، خطا و مستندات را بسازید.",
+      "market_caveat": "در پروژه‌های فردی و کسب‌وکارهای کوچک مناسب است؛ نگهداری و امنیت را در قرارداد مشخص کنید.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "game_developer",
+      "title_fa": "توسعه‌دهنده بازی",
+      "title_en": "Game Developer",
+      "category_id": "software_development",
+      "plain_description": "توسعه‌دهنده بازی، بازی‌های کامپیوتری و موبایلی می‌سازه. کارش اینه که شخصیت‌ها حرکت کنن، قانون‌های بازی درست اجرا بشه، امتیازها حساب بشه و بازی روان و سرگرم‌کننده باشه. معمولاً توی یه تیم، کنار طراح‌ها، گرافیست‌ها و صداگذارها کار می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 2,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 3,
+          "project_contract": 3,
+          "consultant": 2,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "visual",
+        "product",
+        "research"
+      ],
+      "typical_workplaces": [
+        "game_studio",
+        "startup",
+        "freelance",
+        "education"
+      ],
+      "essential_skills": [
+        "Unity/Unreal",
+        "C# یا C++",
+        "ریاضی و منطق",
+        "کنترل نسخه",
+        "بهینه‌سازی"
+      ],
+      "recommended_entry_route": "یک بازی کوچک کامل با منوی شروع، مرحله، صدا و خروجی قابل اجرا ارائه کنید.",
+      "market_caveat": "بازار تخصصی و کوچک‌تر است؛ علاقه شخصی را با شواهد استخدامی و نمونه‌کار بسنجید.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "software_architect",
+      "title_fa": "معمار نرم‌افزار",
+      "title_en": "Software Architect",
+      "category_id": "software_development",
+      "plain_description": "معمار نرم‌افزار مثل معمار ساختمونه: قبل از اینکه برنامه‌نویس‌ها شروع به ساختن کنن، نقشه کلی رو می‌کشه. تصمیم می‌گیره نرم‌افزار از چه بخش‌هایی تشکیل بشه، این بخش‌ها چطور به هم وصل بشن و چطور ساخته بشه که وقتی کاربرها زیاد شدن، خراب نشه. این شغل معمولاً بعد از چند سال تجربه برنامه‌نویسی به دست میاد.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 5,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 5,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "systems",
+        "problem_solving",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "software_company",
+        "bank_fintech",
+        "telecom"
+      ],
+      "essential_skills": [
+        "طراحی معماری",
+        "تجربه توسعه عمیق",
+        "امنیت و مقیاس‌پذیری",
+        "مستندسازی",
+        "ارتباط بین تیمی"
+      ],
+      "recommended_entry_route": "پس از تجربه عملی توسعه، تصمیم‌های معماری را با مطالعه موردی و مستند طراحی کنید.",
+      "market_caveat": "معمولاً مسیر ورودی مبتدی نیست و نیازمند سابقه ساخت و نگهداری سامانه است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "manual_qa",
+      "title_fa": "کارشناس تست نرم‌افزار دستی",
+      "title_en": "Manual QA Tester",
+      "category_id": "qa_testing",
+      "plain_description": "قبل از اینکه یه سایت یا اپلیکیشن به دست مردم برسه، یکی باید مثل یه کاربر واقعی همه‌جاش رو امتحان کنه تا اشکال‌هاش پیدا بشه. کارشناس تست دستی همین کار رو می‌کنه: دکمه‌ها رو می‌زنه، فرم‌ها رو پر می‌کنه، حالت‌های عجیب‌وغریب رو امتحان می‌کنه و هر مشکلی دید رو دقیق گزارش می‌ده. مثل بازرس کنترل کیفیت یه کارخونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "problem_solving",
+        "systems",
+        "product",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "bank_fintech",
+        "ecommerce",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "طراحی سناریوی تست",
+        "گزارش باگ",
+        "SQL پایه",
+        "چرخه توسعه",
+        "دقت"
+      ],
+      "recommended_entry_route": "برای یک وب‌سایت تست‌کیس، گزارش باگ قابل بازتولید و ماتریس پوشش آزمون تهیه کنید.",
+      "market_caveat": "ورود ممکن است از توسعه ساده‌تر باشد اما برای رشد، تحلیل و اتوماسیون مهم‌اند.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "automation_qa",
+      "title_fa": "مهندس تست خودکار",
+      "title_en": "QA Automation Engineer",
+      "category_id": "qa_testing",
+      "plain_description": "این آدم به جای اینکه هر بار دستی همه‌جای نرم‌افزار رو امتحان کنه، برنامه‌هایی می‌نویسه که این امتحان‌ها رو خودکار و سریع انجام بدن. اینطوری هر بار برنامه‌نویس‌ها چیزی رو تغییر بدن، توی چند دقیقه معلوم می‌شه چیزی خراب شده یا نه. ترکیبی از کار تست و برنامه‌نویسیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "problem_solving",
+        "systems",
+        "automation"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "bank_fintech",
+        "enterprise_it",
+        "ecommerce"
+      ],
+      "essential_skills": [
+        "Python/Java/JS",
+        "Playwright/Selenium",
+        "API testing",
+        "Git",
+        "CI"
+      ],
+      "recommended_entry_route": "تست خودکار رابط یا API را به pipeline متصل و گزارش آزمون ایجاد کنید.",
+      "market_caveat": "ترکیب مهارت تست و کدنویسی ارزش بیشتری از حفظ‌کردن ابزارها دارد.",
+      "labels": [
+        "requires_strong_foundation",
+        "insurance_more_likely_in_employment",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "performance_test_engineer",
+      "title_fa": "مهندس تست کارایی و بار",
+      "title_en": "Performance Test Engineer",
+      "category_id": "qa_testing",
+      "plain_description": "فکر کن یه سایت فروش توی روز حراج یهو هزاران مشتری هم‌زمان داشته باشه. مهندس تست کارایی قبل از اون روز، با ابزارهای مخصوص هزاران کاربر مصنوعی می‌سازه و روی سایت می‌فرسته تا ببینه کجا کند می‌شه یا از کار می‌افته. بعد گزارش می‌ده کجا باید قوی‌تر بشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "systems",
+        "data",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "software_company",
+        "telecom"
+      ],
+      "essential_skills": [
+        "JMeter/k6",
+        "تحلیل پروفایل",
+        "شبکه و پایگاه داده",
+        "آزمون بار",
+        "گزارش فنی"
+      ],
+      "recommended_entry_route": "یک API آزمایشی را تحت بار آزمایش و گلوگاه‌های آن را تحلیل کنید.",
+      "market_caveat": "نقش تخصصی‌تر است و بهتر است پس از QA یا توسعه/زیرساخت انتخاب شود.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "data_analyst",
+      "title_fa": "تحلیلگر داده",
+      "title_en": "Data Analyst",
+      "category_id": "data_ai",
+      "plain_description": "هر کسب‌وکاری کلی عدد و اطلاعات داره: فروش، مشتری‌ها، هزینه‌ها. تحلیلگر داده این عددها رو مرتب می‌کنه، نمودار می‌سازه و جواب سؤال‌های مدیرها رو پیدا می‌کنه؛ مثلاً «چرا فروش این ماه کم شد؟» یا «کدوم محصول بیشتر سود می‌ده؟». مثل یه کارآگاه که از دل عددها داستان رو بیرون میاره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "data",
+        "problem_solving",
+        "business",
+        "research"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "ecommerce",
+        "telecom",
+        "enterprise_it",
+        "marketing_agency"
+      ],
+      "essential_skills": [
+        "SQL",
+        "Excel/Sheets",
+        "Power BI/Tableau",
+        "آمار پایه",
+        "روایت‌گری داده"
+      ],
+      "recommended_entry_route": "یک مجموعه داده فارسی را پاک‌سازی و با SQL و داشبورد به چند تصمیم عملی تبدیل کنید.",
+      "market_caveat": "به‌جای صرفاً ساخت نمودار، تعریف مسئله و کیفیت داده را نشان دهید.",
+      "labels": [
+        "market_opportunity_relatively_good",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "bi_developer",
+      "title_fa": "توسعه‌دهنده هوش تجاری",
+      "title_en": "Business Intelligence Developer",
+      "category_id": "data_ai",
+      "plain_description": "مدیرهای یه شرکت دوست دارن هر روز با یه نگاه بفهمن اوضاع چطوره. توسعه‌دهنده هوش تجاری (BI) داشبوردها و گزارش‌هایی می‌سازه که اطلاعات بخش‌های مختلف شرکت رو جمع می‌کنه و به شکل نمودارهای ساده و به‌روز نشون می‌ده. مثل ساختن آمپر و کیلومترشمار برای ماشین یه شرکت.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "coding",
+        "business",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "industrial_company",
+        "retail",
+        "telecom"
+      ],
+      "essential_skills": [
+        "SQL پیشرفته",
+        "مدل‌سازی داده",
+        "Power BI",
+        "ETL",
+        "انبار داده"
+      ],
+      "recommended_entry_route": "از داده خام تا مدل تحلیلی و داشبوردی که یک تصمیم مدیریتی را پشتیبانی کند پیش بروید.",
+      "market_caveat": "درک کسب‌وکار و مدل‌سازی داده به اندازه ابزار گزارش‌گیری مهم است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "data_engineer",
+      "title_fa": "مهندس داده",
+      "title_en": "Data Engineer",
+      "category_id": "data_ai",
+      "plain_description": "قبل از اینکه کسی بتونه اطلاعات رو تحلیل کنه، این اطلاعات باید از جاهای مختلف جمع بشه، تمیز بشه و یه جای مرتب ذخیره بشه. مهندس داده این مسیرها رو می‌سازه؛ یه جورایی لوله‌کش اطلاعاته که مطمئن می‌شه داده‌ها درست، به‌موقع و بدون نشتی به مقصد می‌رسن. بیشتر توی شرکت‌های بزرگ کار می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "coding",
+        "systems",
+        "automation"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "ecommerce",
+        "telecom",
+        "software_company"
+      ],
+      "essential_skills": [
+        "Python/Scala",
+        "SQL",
+        "ETL/ELT",
+        "مدل داده",
+        "ابزارهای پردازش توزیع‌شده"
+      ],
+      "recommended_entry_route": "pipeline داده پایدار با کنترل کیفیت، زمان‌بندی، لاگ و مستندسازی بسازید.",
+      "market_caveat": "عموماً زیرساخت داده سازمانی می‌خواهد و معمولاً پروژه ساده مشتری حقیقی نیست.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "data_scientist",
+      "title_fa": "دانشمند داده",
+      "title_en": "Data Scientist",
+      "category_id": "data_ai",
+      "plain_description": "دانشمند داده با کمک آمار و برنامه‌نویسی، از دل اطلاعات زیاد چیزهای تازه کشف می‌کنه و پیش‌بینی می‌کنه؛ مثلاً اینکه کدوم مشتری احتمالاً دیگه خرید نمی‌کنه یا ماه بعد چقدر فروش داریم. کارش ترکیبی از ریاضی، کنجکاوی و برنامه‌نویسیه و معمولاً درس خوندن و تمرین زیادی لازم داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "research",
+        "coding",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "research",
+        "ecommerce",
+        "telecom"
+      ],
+      "essential_skills": [
+        "آمار",
+        "Python",
+        "یادگیری ماشین",
+        "SQL",
+        "طراحی آزمایش"
+      ],
+      "recommended_entry_route": "مسئله‌ای واقعی را با baseline، ارزیابی درست و توضیح محدودیت‌ها حل کنید.",
+      "market_caveat": "صرف گذراندن دوره کافی نیست؛ مهارت آماری و تعریف مسئله ضروری است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "ml_engineer",
+      "title_fa": "مهندس یادگیری ماشین",
+      "title_en": "Machine Learning Engineer",
+      "category_id": "data_ai",
+      "plain_description": "یادگیری ماشین یعنی کامپیوتر از روی مثال‌های زیاد، خودش یاد بگیره یه کاری رو انجام بده؛ مثل تشخیص چهره یا پیشنهاد فیلم. مهندس یادگیری ماشین این مدل‌های هوشمند رو می‌سازه و کاری می‌کنه که توی یه اپلیکیشن واقعی، سریع و درست برای هزاران کاربر کار کنن.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "coding",
+        "research",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "bank_fintech",
+        "enterprise_it",
+        "research",
+        "startup"
+      ],
+      "essential_skills": [
+        "Python",
+        "آمار و ML",
+        "تست مدل",
+        "استقرار مدل",
+        "مهندسی نرم‌افزار"
+      ],
+      "recommended_entry_route": "مدل را از داده تا سرویس قابل آزمون و پایش‌پذیر پیاده کنید.",
+      "market_caveat": "فرصت‌ها تخصصی‌اند؛ مهندسی نرم‌افزار و داده برای استخدام بسیار مهم‌اند.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "ai_application_developer",
+      "title_fa": "توسعه‌دهنده اپلیکیشن‌های هوش مصنوعی",
+      "title_en": "AI Application Developer",
+      "category_id": "data_ai",
+      "plain_description": "این آدم با کمک هوش مصنوعی‌های آماده (مثل چت‌بات‌های هوشمند) ابزارهای کاربردی می‌سازه؛ مثلاً دستیاری که به سؤال‌های مشتری‌ها جواب بده یا متن‌های طولانی رو خلاصه کنه. کارش اینه که هوش مصنوعی رو به یه محصول مفید، دقیق و امن تبدیل کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "automation",
+        "product",
+        "research"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "digital_agency",
+        "smb",
+        "freelance"
+      ],
+      "essential_skills": [
+        "Python/JS",
+        "API مدل‌ها",
+        "RAG و جست‌وجو",
+        "ارزیابی خروجی",
+        "حریم خصوصی و امنیت"
+      ],
+      "recommended_entry_route": "یک دستیار یا ابزار AI برای یک مسئله روشن بسازید و کیفیت خروجی و هزینه را بسنجید.",
+      "market_caveat": "عنوان شغلی و تقاضا سریع تغییر می‌کند؛ از محصول نمایشی بدون ارزیابی فراتر بروید.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "data_labeling_annotator",
+      "title_fa": "برچسب‌گذار و ارزیاب داده",
+      "title_en": "Data Labeling / AI Evaluator",
+      "category_id": "data_ai",
+      "plain_description": "هوش مصنوعی برای یاد گرفتن به کلی مثال درست‌وحسابی نیاز داره. برچسب‌گذار داده عکس‌ها، متن‌ها یا صداها رو بررسی می‌کنه و مشخص می‌کنه هر کدوم چیه؛ مثلاً توی یه عکس می‌گه «این گربه‌ست» یا جواب یه هوش مصنوعی رو می‌خونه و می‌گه درسته یا غلط. کار دقیق و منظمیه و برای شروع تخصص زیادی نمی‌خواد.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 1,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 1,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 1,
+        "stress_level": 2,
+        "responsibility_level": 2,
+        "routine_level": 5,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 3,
+          "onsite": 2
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 3,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 2,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 2,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "routine",
+        "research"
+      ],
+      "typical_workplaces": [
+        "ai_company",
+        "research",
+        "outsourcing",
+        "remote_team"
+      ],
+      "essential_skills": [
+        "دقت",
+        "راهنمای برچسب‌گذاری",
+        "کار با ابزار داده",
+        "تشخیص خطا"
+      ],
+      "recommended_entry_route": "نمونه‌کار برچسب‌گذاری دقیق و توان پیروی از دستورالعمل‌ها ارائه کنید.",
+      "market_caveat": "درآمد و ثبات می‌تواند محدود باشد و این نقش همیشه مسیر فنی بلندمدت نیست.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "analytics_engineer",
+      "title_fa": "مهندس تحلیل داده",
+      "title_en": "Analytics Engineer",
+      "category_id": "data_ai",
+      "plain_description": "مهندس تحلیل داده بین مهندس داده و تحلیلگر داده قرار می‌گیره. اطلاعات خامی که جمع شده رو مرتب، دسته‌بندی و قابل‌اعتماد می‌کنه تا تحلیلگرها و مدیرها بتونن راحت و بدون اشتباه ازش گزارش بگیرن. مثل کسی که کتاب‌های یه کتابخونه رو دسته‌بندی و برچسب‌گذاری می‌کنه تا هر کس راحت کتابش رو پیدا کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "coding",
+        "business"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "ecommerce",
+        "bank_fintech",
+        "software_company"
+      ],
+      "essential_skills": [
+        "SQL",
+        "مدل‌سازی تحلیلی",
+        "dbt یا ابزار مشابه",
+        "کنترل نسخه",
+        "کیفیت داده"
+      ],
+      "recommended_entry_route": "مدل داده تمیز، تست کیفیت و مستندات مصرف‌کننده بسازید.",
+      "market_caveat": "این عنوان نسبتاً تخصصی است؛ آگهی‌های مرتبط با BI و data engineering را هم بخوانید.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "it_helpdesk",
+      "title_fa": "کارشناس Help Desk و پشتیبانی IT",
+      "title_en": "IT Help Desk Specialist",
+      "category_id": "infrastructure_operations",
+      "plain_description": "وقتی توی یه شرکت کامپیوتر کسی خراب می‌شه، پرینتر کار نمی‌کنه یا رمز ایمیلش یادش رفته، به کارشناس هلپ‌دسک زنگ می‌زنه. این آدم اولین نفریه که به مشکل‌های کامپیوتری کارمندها رسیدگی می‌کنه، راهنماییشون می‌کنه و مشکل رو حل می‌کنه یا به متخصص بالاتر می‌سپاره. یکی از بهترین راه‌های شروع کار توی IT‌ه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 1,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 2,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 2,
+        "routine_level": 5,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 2,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "troubleshooting",
+        "communication",
+        "systems",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "government_it",
+        "industrial_company",
+        "school_university",
+        "hospital"
+      ],
+      "essential_skills": [
+        "Windows",
+        "مفاهیم شبکه",
+        "پشتیبانی کاربر",
+        "تیکتینگ",
+        "مستندسازی"
+      ],
+      "recommended_entry_route": "مهارت عیب‌یابی ویندوز و شبکه را با چک‌لیست و گزارش حل مسئله نشان دهید.",
+      "market_caveat": "برای حضوری بودن و شیفت آماده باشید؛ کیفیت کار با کاربر اهمیت زیادی دارد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "market_opportunity_relatively_good",
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "it_support_technician",
+      "title_fa": "تکنسین پشتیبانی کامپیوتر و IT",
+      "title_en": "IT Support Technician",
+      "category_id": "infrastructure_operations",
+      "plain_description": "تکنسین پشتیبانی IT کامپیوترها، پرینترها، اینترنت و تجهیزات یه شرکت یا مجموعه رو سرپا نگه می‌داره. ویندوز نصب می‌کنه، قطعه عوض می‌کنه، شبکه راه می‌ندازه و از اطلاعات نسخه پشتیبان (بکاپ) می‌گیره. مثل تعمیرکار و نگهبان فنی یه اداره که نمی‌ذاره کار کسی به خاطر کامپیوتر بخوابه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 1,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 2,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 2,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "troubleshooting",
+        "communication",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "school_university",
+        "hospital",
+        "industrial_company",
+        "freelance"
+      ],
+      "essential_skills": [
+        "Windows/Linux پایه",
+        "سخت‌افزار",
+        "شبکه پایه",
+        "بکاپ",
+        "پشتیبانی کاربر"
+      ],
+      "recommended_entry_route": "چند سناریوی عیب‌یابی سخت‌افزار، سیستم‌عامل و شبکه را مستند کنید.",
+      "market_caveat": "در بازار محلی می‌تواند خدماتی و حضوری باشد؛ هزینه رفت‌وآمد را حساب کنید.",
+      "labels": [
+        "entry_relatively_accessible",
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "linux_sysadmin",
+      "title_fa": "مدیر سیستم لینوکس",
+      "title_en": "Linux System Administrator",
+      "category_id": "infrastructure_operations",
+      "plain_description": "بیشتر سایت‌ها و سرویس‌های اینترنتی روی کامپیوترهای قوی‌ای به اسم «سرور» اجرا می‌شن که اکثرشون سیستم‌عامل لینوکس دارن. مدیر سیستم لینوکس این سرورها رو راه‌اندازی می‌کنه، مراقبه همیشه روشن و سالم باشن، ازشون بکاپ می‌گیره و جلوی نفوذ رو می‌گیره. مثل مسئول فنی یه ساختمون بزرگ که همه‌چیزش باید همیشه کار کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "automation",
+        "problem_solving",
+        "security"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "data_center",
+        "hosting_provider",
+        "telecom",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "Linux",
+        "شبکه",
+        "Bash/Python",
+        "مانیتورینگ",
+        "بکاپ و امنیت"
+      ],
+      "recommended_entry_route": "یک سرویس لینوکسی امن با مانیتورینگ، بکاپ، لاگ و مستندات راه‌اندازی کنید.",
+      "market_caveat": "برای نقش‌های جدی معمولاً تجربه عملی، مسئولیت عملیاتی و گاهی on-call لازم است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "windows_sysadmin",
+      "title_fa": "مدیر سیستم ویندوز و سرویس‌های مایکروسافت",
+      "title_en": "Windows Systems Administrator",
+      "category_id": "infrastructure_operations",
+      "plain_description": "توی خیلی از شرکت‌ها و اداره‌ها، کامپیوترها و حساب‌های کاربری کارمندها با سرورهای ویندوزی مدیریت می‌شن. این متخصص تعیین می‌کنه هر کارمند به چه چیزهایی دسترسی داشته باشه، سرورها رو نگهداری می‌کنه، به‌روزرسانی و بکاپ رو انجام می‌ده و مراقب امنیت شبکه داخلی شرکته.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "troubleshooting",
+        "security",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "government_it",
+        "industrial_company",
+        "school_university",
+        "hospital"
+      ],
+      "essential_skills": [
+        "Windows Server",
+        "Active Directory",
+        "PowerShell",
+        "بکاپ",
+        "مجازی‌سازی"
+      ],
+      "recommended_entry_route": "محیط آزمایشگاهی با دامین، دسترسی‌ها، سیاست امنیتی و بکاپ بسازید.",
+      "market_caveat": "عموماً نیازمند کار سازمانی و دسترسی حضوری/شبکه داخلی است.",
+      "labels": [
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "network_engineer",
+      "title_fa": "مهندس شبکه",
+      "title_en": "Network Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "شبکه یعنی همون راه‌هایی که کامپیوترها، گوشی‌ها و سرورها از طریقش به هم و به اینترنت وصل می‌شن. مهندس شبکه این راه‌ها رو طراحی و راه‌اندازی می‌کنه و وقتی اینترنت یا ارتباط داخلی یه شرکت قطع می‌شه، علتش رو پیدا و درستش می‌کنه. مثل مهندس راه‌وترابری که جاده‌ها، تقاطع‌ها و چراغ‌قرمزهای اطلاعات رو می‌سازه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "troubleshooting",
+        "hardware",
+        "security"
+      ],
+      "typical_workplaces": [
+        "telecom",
+        "isp",
+        "data_center",
+        "enterprise_it",
+        "industrial_company"
+      ],
+      "essential_skills": [
+        "TCP/IP",
+        "Routing/Switching",
+        "Firewall",
+        "مانیتورینگ",
+        "عیب‌یابی"
+      ],
+      "recommended_entry_route": "لابراتوار شبکه با سناریوهای VLAN، routing و firewall مستند کنید.",
+      "market_caveat": "برای افراد تازه‌کار، نقش‌های NOC یا پشتیبانی شبکه می‌تواند نقطه شروع باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "noc_operator",
+      "title_fa": "کارشناس مرکز عملیات شبکه (NOC)",
+      "title_en": "NOC Operator",
+      "category_id": "infrastructure_operations",
+      "plain_description": "توی شرکت‌های اینترنتی و مخابراتی یه اتاق هست با کلی مانیتور که وضعیت شبکه رو لحظه‌به‌لحظه نشون می‌ده. کارشناس NOC اونجا نشسته و هر وقت جایی قطع یا کند شد، سریع متوجه می‌شه، طبق دستورالعمل کار لازم رو انجام می‌ده و به متخصص‌ها خبر می‌ده. مثل برج مراقبت فرودگاه، ولی برای اینترنت؛ معمولاً هم کارش شیفتیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 3,
+        "routine_level": 5,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 2,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "troubleshooting",
+        "routine",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "isp",
+        "telecom",
+        "data_center",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "مفاهیم شبکه",
+        "مانیتورینگ",
+        "تیکتینگ",
+        "گزارش رخداد",
+        "کار شیفتی"
+      ],
+      "recommended_entry_route": "ابزار مانیتورینگ آزمایشی را تنظیم و چند رخداد فرضی را طبق Runbook مدیریت کنید.",
+      "market_caveat": "شیفت شب/تعطیل و واکنش سریع ممکن است بخشی از کار باشد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "data_center_technician",
+      "title_fa": "تکنسین دیتاسنتر",
+      "title_en": "Data Center Technician",
+      "category_id": "infrastructure_operations",
+      "plain_description": "دیتاسنتر یه ساختمون پر از سرورهاییه که سایت‌ها و سرویس‌های اینترنتی روشون اجرا می‌شن. تکنسین دیتاسنتر این سرورها رو نصب می‌کنه، کابل‌کشی می‌کنه، قطعه خراب رو عوض می‌کنه و مراقب برق و سیستم خنک‌کننده‌ست. کاری دقیق، منظم و بیشتر حضوری و فیزیکیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 3,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 2,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 2,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "systems",
+        "routine",
+        "troubleshooting"
+      ],
+      "typical_workplaces": [
+        "data_center",
+        "hosting_provider",
+        "telecom",
+        "bank_fintech"
+      ],
+      "essential_skills": [
+        "سرور و رک",
+        "کابل‌کشی",
+        "برق و خنک‌سازی پایه",
+        "ثبت تغییرات",
+        "ایمنی"
+      ],
+      "recommended_entry_route": "مفاهیم رک، کابل‌کشی و سخت‌افزار سرور را یاد بگیرید و دقت عملیاتی نشان دهید.",
+      "market_caveat": "حضوری و تابع رویه‌های سخت‌گیرانه؛ ممکن است شیفتی باشد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "cloud_engineer",
+      "title_fa": "مهندس زیرساخت ابری",
+      "title_en": "Cloud Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "به جای اینکه هر شرکت خودش سرور بخره و نگه داره، می‌تونه از «ابر» (کلاد) سرور اجاره کنه؛ یعنی از کامپیوترهای یه شرکت بزرگ دیگه. مهندس کلاد این سرورهای اجاره‌ای رو طراحی و راه‌اندازی می‌کنه، هزینه‌هاش رو کنترل می‌کنه و مراقبه امن و پایدار باشن. مثل کسی که به جای ساختن انبار، بهترین انبار اجاره‌ای رو برای شرکت جور و مدیریت می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "automation",
+        "coding",
+        "security"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "enterprise_it",
+        "bank_fintech",
+        "telecom",
+        "cloud_provider"
+      ],
+      "essential_skills": [
+        "Linux",
+        "Networking",
+        "Terraform/IaC",
+        "Docker",
+        "سرویس‌های ابری"
+      ],
+      "recommended_entry_route": "زیرساخت آزمایشی را با IaC بسازید، هزینه را محدود کنید و مانیتورینگ اضافه کنید.",
+      "market_caveat": "هزینه، دسترسی منطقه‌ای به سرویس‌ها و محدودیت‌های پرداخت را پیش از استفاده از کلاد خارجی بررسی کنید.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "devops_engineer",
+      "title_fa": "مهندس DevOps",
+      "title_en": "DevOps Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "وقتی برنامه‌نویس‌ها چیزی رو توی نرم‌افزار تغییر می‌دن، این تغییر باید سالم و سریع به دست کاربرها برسه. مهندس DevOps یه خط تولید می‌سازه که این کار رو خودکار انجام بده: کد رو تست کنه، روی سرورها نصب کنه و اگه مشکلی پیش اومد، سریع به نسخه قبل برگردونه. مثل مهندس خط تولید کارخونه که مطمئن می‌شه محصول بدون توقف و بی‌نقص به بازار برسه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 5,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "automation",
+        "coding",
+        "problem_solving",
+        "security"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "enterprise_it",
+        "bank_fintech",
+        "telecom",
+        "ecommerce"
+      ],
+      "essential_skills": [
+        "Linux",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "IaC",
+        "Monitoring"
+      ],
+      "recommended_entry_route": "pipeline CI/CD، استقرار قابل تکرار، مانیتورینگ و rollback را در یک پروژه نمایشی پیاده کنید.",
+      "market_caveat": "برای شروع از صفر معمولاً سخت است؛ کار سازمانی/تیمی و مسئولیت سرویس رایج‌تر از مشتری حقیقی است. on-call را بررسی کنید.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "site_reliability_engineer",
+      "title_fa": "مهندس قابلیت اطمینان سایت (SRE)",
+      "title_en": "Site Reliability Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "مهندس SRE مسئوله که یه سرویس اینترنتی بزرگ (مثل یه اپ پرطرفدار) همیشه در دسترس و سریع باشه. سیستم‌های هشداردهنده می‌سازه، وقتی سرویس از کار افتاد سریع درستش می‌کنه و بعدش بررسی می‌کنه چرا این اتفاق افتاد تا تکرار نشه. ممکنه لازم باشه نصف‌شب هم به یه مشکل فوری رسیدگی کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 5,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 1,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 1,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "automation",
+        "coding",
+        "data",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "bank_fintech",
+        "enterprise_it",
+        "telecom"
+      ],
+      "essential_skills": [
+        "Linux",
+        "برنامه‌نویسی",
+        "Observability",
+        "Incident response",
+        "SLO/SLA",
+        "ظرفیت‌سنجی"
+      ],
+      "recommended_entry_route": "یک سرویس را با SLI/SLO، مانیتورینگ، هشدار و گزارش پس از رخداد بهبود دهید.",
+      "market_caveat": "نقش پیشرفته و پراسترس؛ معمولاً سابقه زیرساخت/DevOps می‌خواهد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "platform_engineer",
+      "title_fa": "مهندس پلتفرم",
+      "title_en": "Platform Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "مهندس پلتفرم برای بقیه برنامه‌نویس‌های شرکت ابزار و زیرساخت می‌سازه تا اونا راحت‌تر و سریع‌تر کارشون رو انجام بدن. مثل کسی که توی یه کارگاه بزرگ، میز کار، ابزارها و دستگاه‌ها رو آماده و مرتب می‌کنه تا بقیه فقط روی ساختن تمرکز کنن. این شغل بیشتر توی شرکت‌های بزرگ وجود داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 1,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 1,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "automation",
+        "coding",
+        "product"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "enterprise_it",
+        "bank_fintech",
+        "telecom"
+      ],
+      "essential_skills": [
+        "Kubernetes",
+        "IaC",
+        "Developer tooling",
+        "امنیت",
+        "طراحی سرویس داخلی"
+      ],
+      "recommended_entry_route": "یک محیط استاندارد self-service برای استقرار یک سرویس نمونه بسازید.",
+      "market_caveat": "عنوان تخصصی و معمولاً در تیم‌های مهندسی بزرگ‌تر دیده می‌شود.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "database_administrator",
+      "title_fa": "مدیر پایگاه داده (DBA)",
+      "title_en": "Database Administrator",
+      "category_id": "infrastructure_operations",
+      "plain_description": "تقریباً همه اطلاعات مهم یه شرکت (مشتری‌ها، سفارش‌ها، حساب‌ها) توی پایگاه داده ذخیره می‌شه. مدیر پایگاه داده مراقبه این اطلاعات همیشه سالم، سریع و امن باشه، ازشون بکاپ می‌گیره و اگه مشکلی پیش اومد، اطلاعات رو برمی‌گردونه. مثل مسئول بایگانی و گاوصندوق یه بانک.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 5,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "systems",
+        "problem_solving",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "telecom",
+        "ecommerce",
+        "government_it"
+      ],
+      "essential_skills": [
+        "SQL",
+        "پشتیبان‌گیری و بازیابی",
+        "Performance tuning",
+        "امنیت",
+        "HA/Replication"
+      ],
+      "recommended_entry_route": "پایگاه داده آزمایشی را با بکاپ قابل بازیابی، مانیتورینگ و کنترل دسترسی مدیریت کنید.",
+      "market_caveat": "مسئولیت داده حساس و زمان بازیابی بالا می‌تواند فشار قابل توجه ایجاد کند.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "backup_dr_specialist",
+      "title_fa": "متخصص بکاپ و بازیابی بحران",
+      "title_en": "Backup & Disaster Recovery Specialist",
+      "category_id": "infrastructure_operations",
+      "plain_description": "اگه یه روز سرورهای یه شرکت آتیش بگیره، هک بشه یا اطلاعاتش پاک بشه، چی می‌شه؟ این متخصص از قبل برنامه‌ریزی می‌کنه که از همه‌چیز نسخه پشتیبان وجود داشته باشه و موقع بحران، کارها توی کمترین زمان دوباره راه بیفته. مثل کسی که برای یه ساختمون برنامه تخلیه اضطراری می‌نویسه و مرتب تمرینش می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 5,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "security",
+        "routine",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "data_center",
+        "hospital",
+        "industrial_company"
+      ],
+      "essential_skills": [
+        "Backup",
+        "Recovery testing",
+        "Storage",
+        "مستندسازی",
+        "مدیریت رخداد"
+      ],
+      "recommended_entry_route": "سناریوی بازیابی را اجرا و زمان بازیابی و نقطه بازیابی را مستند کنید.",
+      "market_caveat": "تعداد فرصت‌ها ممکن است از نقش‌های عمومی‌تر زیرساخت کمتر باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "virtualization_engineer",
+      "title_fa": "مهندس مجازی‌سازی",
+      "title_en": "Virtualization Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "مجازی‌سازی یعنی یه کامپیوتر قوی رو طوری تقسیم کنیم که مثل چندتا کامپیوتر جداگانه کار کنه. مهندس مجازی‌سازی این سیستم‌ها رو راه‌اندازی و مدیریت می‌کنه تا شرکت با سخت‌افزار کمتر، سرورهای بیشتری داشته باشه. مثل تقسیم یه ساختمون بزرگ به چندتا واحد آپارتمان جدا.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "hardware",
+        "automation"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "data_center",
+        "hosting_provider",
+        "bank_fintech"
+      ],
+      "essential_skills": [
+        "VMware/Proxmox/Hyper-V",
+        "Storage",
+        "Networking",
+        "Backup",
+        "Capacity"
+      ],
+      "recommended_entry_route": "کلاستر مجازی‌سازی آزمایشی و سناریوی مهاجرت ماشین را مستند کنید.",
+      "market_caveat": "بازار وابسته به سازمان‌هایی است که زیرساخت داخلی قابل توجه دارند.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "voip_telephony_engineer",
+      "title_fa": "متخصص VoIP و تلفن سازمانی",
+      "title_en": "VoIP/Telephony Engineer",
+      "category_id": "infrastructure_operations",
+      "plain_description": "توی شرکت‌ها تلفن‌ها دیگه مثل قدیم با خط تلفن معمولی کار نمی‌کنن و از طریق شبکه و اینترنت وصل می‌شن (VoIP). این متخصص سیستم تلفن شرکت رو راه‌اندازی می‌کنه؛ مثل شماره‌های داخلی، منشی تلفنی خودکار و انتقال تماس. وقتی صدا قطع‌ووصل می‌شه یا تماس برقرار نمی‌شه، مشکل رو پیدا می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "hardware",
+        "troubleshooting",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "enterprise_it",
+        "telecom",
+        "installation_company",
+        "freelance"
+      ],
+      "essential_skills": [
+        "شبکه",
+        "SIP",
+        "PBX",
+        "QoS",
+        "عیب‌یابی صوت"
+      ],
+      "recommended_entry_route": "یک PBX آزمایشی با داخلی‌ها، مسیر تماس و گزارش عیب پیاده کنید.",
+      "market_caveat": "بخش مهمی از پروژه‌ها نصب و پشتیبانی حضوری در محل مشتری است.",
+      "labels": []
+    },
+    {
+      "id": "soc_analyst",
+      "title_fa": "تحلیلگر مرکز عملیات امنیت (SOC)",
+      "title_en": "SOC Analyst",
+      "category_id": "cybersecurity",
+      "plain_description": "SOC مثل اتاق مانیتورینگ دوربین‌های امنیتیه، ولی برای کامپیوترها و شبکه یه سازمان. تحلیلگر SOC مدام هشدارها و گزارش‌های سیستم‌ها رو بررسی می‌کنه تا اگه کسی خواست نفوذ کنه یا اتفاق مشکوکی افتاد، سریع متوجه بشه و جلوش رو بگیره. معمولاً کارش شیفتیه و گاهی پرفشار.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 1,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "security",
+        "systems",
+        "data",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "telecom",
+        "security_company",
+        "government_it"
+      ],
+      "essential_skills": [
+        "شبکه",
+        "Linux/Windows logs",
+        "SIEM",
+        "تحلیل رخداد",
+        "مستندسازی"
+      ],
+      "recommended_entry_route": "لاگ‌های آزمایشگاهی را در SIEM جمع کنید و یک رخداد را از کشف تا گزارش دنبال کنید.",
+      "market_caveat": "تیم‌های SOC ممکن است شیفتی باشند؛ محیط سازمانی و فرایندمحور رایج است.",
+      "labels": [
+        "requires_strong_foundation",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "penetration_tester",
+      "title_fa": "متخصص تست نفوذ",
+      "title_en": "Penetration Tester",
+      "category_id": "cybersecurity",
+      "plain_description": "متخصص تست نفوذ یه «هکر قانونی» و مجازه. شرکت‌ها بهش اجازه می‌دن سعی کنه به سایت یا شبکه‌شون نفوذ کنه تا قبل از هکرهای واقعی، حفره‌های امنیتی پیدا بشن. بعد یه گزارش دقیق می‌نویسه که کجا ضعف دارن و چطور درستش کنن. مثل اینکه یه قفل‌ساز استخدام کنی تا ببینه درِ خونه‌ت چقدر امنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 4,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "security",
+        "coding",
+        "research",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "security_company",
+        "software_company",
+        "bank_fintech",
+        "consulting",
+        "freelance"
+      ],
+      "essential_skills": [
+        "شبکه",
+        "وب و API",
+        "Linux",
+        "گزارش‌نویسی",
+        "محدوده مجوزدار آزمون"
+      ],
+      "recommended_entry_route": "آزمایشگاه قانونی بسازید، یافته‌ها را با شواهد و راهکار اصلاحی گزارش کنید.",
+      "market_caveat": "فقط سامانه‌هایی را آزمایش کنید که مجوز کتبی دارید؛ کار حرفه‌ای به گزارش‌نویسی قوی نیاز دارد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "security_engineer",
+      "title_fa": "مهندس امنیت اطلاعات",
+      "title_en": "Security Engineer",
+      "category_id": "cybersecurity",
+      "plain_description": "مهندس امنیت سیستم‌ها و شبکه یه سازمان رو طوری تنظیم می‌کنه که هک کردنش سخت باشه؛ دیوار آتش می‌ذاره، دسترسی‌ها رو محدود می‌کنه و ابزارهای مراقبت نصب می‌کنه. مثل مسئول حفاظت یه ساختمون که درها، قفل‌ها، دزدگیرها و دوربین‌ها رو طراحی و نصب می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "security",
+        "systems",
+        "coding",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "telecom",
+        "software_company",
+        "government_it"
+      ],
+      "essential_skills": [
+        "Network security",
+        "Hardening",
+        "IAM",
+        "پایش",
+        "اتوماسیون امنیت"
+      ],
+      "recommended_entry_route": "یک محیط آزمایشی را امن‌سازی و کنترل‌ها و ریسک‌های باقی‌مانده را مستند کنید.",
+      "market_caveat": "عنوانی گسترده است؛ انتخاب زیرشاخه و سابقه عملی اهمیت زیادی دارد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "grc_isms_specialist",
+      "title_fa": "کارشناس حاکمیت، ریسک و انطباق امنیت",
+      "title_en": "GRC / ISMS Specialist",
+      "category_id": "cybersecurity",
+      "plain_description": "این کارشناس بیشتر با قانون، مقررات و برنامه‌ریزی امنیت سروکار داره تا کار فنی. بررسی می‌کنه چه خطرهایی اطلاعات سازمان رو تهدید می‌کنه، دستورالعمل‌های امنیتی می‌نویسه و مطمئن می‌شه سازمان استانداردهای لازم (مثل ISO 27001) رو رعایت می‌کنه. مثل مسئول ایمنی یه کارخونه که آیین‌نامه می‌نویسه و بازرسی می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "security",
+        "business",
+        "communication",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "consulting",
+        "government_it",
+        "healthcare"
+      ],
+      "essential_skills": [
+        "مدیریت ریسک",
+        "ISO 27001",
+        "سیاست و کنترل",
+        "ممیزی",
+        "نگارش گزارش"
+      ],
+      "recommended_entry_route": "ارزیابی ریسک نمونه تهیه کنید و کنترل‌های متناسب را با شواهد و مالک مشخص کنید.",
+      "market_caveat": "به نظم مستندات و توان گفت‌وگو با مدیران و تیم‌های فنی نیاز دارد.",
+      "labels": [
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "application_security_engineer",
+      "title_fa": "مهندس امنیت برنامه (AppSec)",
+      "title_en": "Application Security Engineer",
+      "category_id": "cybersecurity",
+      "plain_description": "این مهندس روی امنیت خودِ نرم‌افزارها تمرکز داره. کدهایی که برنامه‌نویس‌ها نوشتن رو بررسی می‌کنه تا حفره امنیتی نداشته باشه و به تیم یاد می‌ده از اول امن برنامه بنویسن. مثل مهندس ناظری که موقع ساختن یه ساختمون، مطمئن می‌شه همه‌چیز طبق اصول ایمنی ساخته می‌شه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "security",
+        "coding",
+        "problem_solving",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "bank_fintech",
+        "enterprise_it",
+        "security_company"
+      ],
+      "essential_skills": [
+        "برنامه‌نویسی",
+        "مدل‌سازی تهدید",
+        "SAST/DAST",
+        "امنیت API",
+        "چرخه توسعه امن"
+      ],
+      "recommended_entry_route": "یک برنامه نمونه را threat-model کنید، یافته‌ها را رفع و در pipeline بررسی امنیتی اضافه کنید.",
+      "market_caveat": "ترکیبی از توسعه و امنیت است؛ معمولاً به درک عمیق کد نیاز دارد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "incident_response_forensics",
+      "title_fa": "متخصص پاسخ‌گویی به رخداد و جرم‌یابی دیجیتال",
+      "title_en": "Incident Response / Digital Forensics",
+      "category_id": "cybersecurity",
+      "plain_description": "وقتی یه سازمان هک می‌شه، این متخصص مثل آتش‌نشان و کارآگاه وارد عمل می‌شه: اول جلوی گسترش خرابی رو می‌گیره، بعد مدرک‌های دیجیتال رو جمع می‌کنه تا معلوم بشه نفوذگر از کجا اومده و چی کار کرده. گزارشش ممکنه حتی توی دادگاه هم استفاده بشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 1,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 5,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 1,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 1,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "security",
+        "systems",
+        "research",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "government_it",
+        "security_company",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "تحلیل لاگ",
+        "حفظ شواهد",
+        "سیستم‌عامل",
+        "شبکه",
+        "گزارش رخداد"
+      ],
+      "recommended_entry_route": "سناریوی آزمایشگاهی رخداد بسازید و زنجیره نگهداری شواهد را مستند کنید.",
+      "market_caveat": "بازار تخصصی‌تر است؛ دسترسی و اعتماد سازمانی می‌تواند شرط مهم باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "iam_specialist",
+      "title_fa": "متخصص مدیریت هویت و دسترسی",
+      "title_en": "Identity & Access Management Specialist",
+      "category_id": "cybersecurity",
+      "plain_description": "توی یه سازمان بزرگ، هر کارمند باید فقط به چیزهایی دسترسی داشته باشه که لازم داره. متخصص مدیریت هویت و دسترسی تعیین می‌کنه کی به کدوم سیستم دسترسی داشته باشه، ورود دومرحله‌ای راه می‌ندازه و وقتی کسی از شرکت رفت، دسترسی‌هاش رو قطع می‌کنه. مثل مسئول کلیدها و کارت‌های ورود یه ساختمون بزرگ.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 5,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 5,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "security",
+        "systems",
+        "routine",
+        "business"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "telecom",
+        "government_it"
+      ],
+      "essential_skills": [
+        "مدیریت هویت",
+        "SSO/MFA",
+        "RBAC",
+        "Directory services",
+        "ممیزی دسترسی"
+      ],
+      "recommended_entry_route": "مدل دسترسی مبتنی بر نقش و گردش تأیید دسترسی را در محیط نمونه طراحی کنید.",
+      "market_caveat": "اغلب بخشی از تیم IT/security سازمان‌های متوسط و بزرگ است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "ui_ux_designer",
+      "title_fa": "طراح UI/UX",
+      "title_en": "UI/UX Designer",
+      "category_id": "design_product",
+      "plain_description": "طراح UI/UX تعیین می‌کنه یه سایت یا اپلیکیشن چه شکلی باشه و استفاده ازش چقدر راحت باشه. «UX» یعنی تجربه کاربر؛ اینکه آدم‌ها راحت کارشون رو انجام بدن و گیج نشن. «UI» یعنی ظاهر؛ رنگ‌ها، دکمه‌ها و چیدمان. مثل طراح داخلی که هم خونه رو قشنگ می‌کنه و هم طوری می‌چینه که زندگی توش راحت باشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "visual",
+        "product",
+        "research",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "digital_agency",
+        "software_company",
+        "startup",
+        "ecommerce",
+        "freelance"
+      ],
+      "essential_skills": [
+        "Figma",
+        "تحقیق کاربر",
+        "Wireframe",
+        "Prototype",
+        "طراحی واکنش‌گرا"
+      ],
+      "recommended_entry_route": "یک مطالعه موردی شامل مسئله، تحقیق، جریان کار، پروتوتایپ و بازبینی بسازید.",
+      "market_caveat": "نمونه‌کار با فرایند تصمیم‌گیری مهم‌تر از چند تصویر زیباست.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "product_designer",
+      "title_fa": "طراح محصول دیجیتال",
+      "title_en": "Product Designer",
+      "category_id": "design_product",
+      "plain_description": "طراح محصول دیجیتال مثل طراح UI/UX کار می‌کنه، ولی نگاهش بزرگ‌تره: علاوه بر ظاهر و راحتی استفاده، فکر می‌کنه محصول چه مشکلی از کاربر حل می‌کنه و چطور به هدف‌های کسب‌وکار کمک می‌کنه. کنار برنامه‌نویس‌ها و مدیر محصول کار می‌کنه تا محصول هم مفید باشه و هم دوست‌داشتنی.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "visual",
+        "product",
+        "research",
+        "business"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "bank_fintech",
+        "ecommerce"
+      ],
+      "essential_skills": [
+        "UX/UI",
+        "تحقیق",
+        "سیستم طراحی",
+        "تحلیل محصول",
+        "همکاری با مهندسی"
+      ],
+      "recommended_entry_route": "مطالعه موردی را به نتیجه محصول و شواهد اعتبارسنجی وصل کنید.",
+      "market_caveat": "در شرکت‌های محصول‌محور رایج‌تر است؛ تعریف عنوان‌ها در شرکت‌ها متفاوت است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "ux_researcher",
+      "title_fa": "پژوهشگر تجربه کاربر",
+      "title_en": "UX Researcher",
+      "category_id": "design_product",
+      "plain_description": "پژوهشگر تجربه کاربر با آدم‌ها حرف می‌زنه، نگاه می‌کنه چطور از یه اپ یا سایت استفاده می‌کنن و می‌فهمه کجاها گیج می‌شن یا واقعاً چی لازم دارن. بعد این یافته‌ها رو به طراح‌ها و مدیرها می‌گه تا محصول بهتری بسازن. مثل یه خبرنگار کنجکاو که حرف دل مشتری‌ها رو به سازنده‌ها می‌رسونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "research",
+        "communication",
+        "product",
+        "data"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "research",
+        "bank_fintech"
+      ],
+      "essential_skills": [
+        "مصاحبه کاربر",
+        "آزمون کاربردپذیری",
+        "تحلیل کیفی",
+        "اخلاق پژوهش",
+        "ارائه یافته"
+      ],
+      "recommended_entry_route": "یک پژوهش کوچک با پرسش روشن، نمونه مناسب و جمع‌بندی قابل اقدام انجام دهید.",
+      "market_caveat": "تعداد نقش‌ها ممکن است کمتر از UI/UX عمومی باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "product_manager",
+      "title_fa": "مدیر محصول",
+      "title_en": "Product Manager",
+      "category_id": "design_product",
+      "plain_description": "مدیر محصول تصمیم می‌گیره یه اپلیکیشن یا نرم‌افزار چه امکاناتی داشته باشه و کدوم کارها اول انجام بشه. با مشتری‌ها، طراح‌ها، برنامه‌نویس‌ها و مدیرهای شرکت حرف می‌زنه تا همه به یه هدف مشترک برسن. خودش برنامه‌نویسی نمی‌کنه، ولی مثل کارگردان فیلم، همه رو هماهنگ می‌کنه تا محصول خوبی ساخته بشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 5,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "product",
+        "business",
+        "communication",
+        "data",
+        "research"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "bank_fintech",
+        "ecommerce",
+        "telecom"
+      ],
+      "essential_skills": [
+        "تحلیل مسئله",
+        "اولویت‌بندی",
+        "داده محصول",
+        "ارتباط ذی‌نفعان",
+        "مستندسازی نیاز"
+      ],
+      "recommended_entry_route": "یک محصول را با مسئله، کاربران، معیار موفقیت، اولویت‌ها و نقشه راه تحلیل کنید.",
+      "market_caveat": "معمولاً نقش ورودی نیست؛ تجربه مشتری/تحلیل/طراحی/توسعه می‌تواند مسیر ورود باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "remote_compatible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "business_analyst",
+      "title_fa": "تحلیلگر کسب‌وکار",
+      "title_en": "Business Analyst",
+      "category_id": "design_product",
+      "plain_description": "تحلیلگر کسب‌وکار پل ارتباطی بین مدیرها و تیم فنیه. بررسی می‌کنه کارهای یه شرکت الان چطور انجام می‌شه، مشکل‌ها کجاست و نرم‌افزار دقیقاً باید چی کار کنه تا کارها بهتر بشه. بعد همه اینا رو طوری می‌نویسه که برنامه‌نویس‌ها دقیق بفهمن چی باید بسازن. مثل مترجمی که زبون کسب‌وکار رو به زبون فنی برمی‌گردونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "business",
+        "communication",
+        "problem_solving",
+        "data"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "software_company",
+        "government_it",
+        "consulting"
+      ],
+      "essential_skills": [
+        "مصاحبه ذی‌نفعان",
+        "فرایند BPMN",
+        "نیازمندی",
+        "SQL پایه",
+        "مستندسازی"
+      ],
+      "recommended_entry_route": "یک فرایند کسب‌وکار را از وضع موجود تا نیازمندی و معیار پذیرش مستند کنید.",
+      "market_caveat": "درک فرایند، ارتباطات و ترجمه نیاز کسب‌وکار به تیم فنی مهم است.",
+      "labels": [
+        "insurance_more_likely_in_employment",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "project_manager_it",
+      "title_fa": "مدیر پروژه IT",
+      "title_en": "IT Project Manager",
+      "category_id": "design_product",
+      "plain_description": "مدیر پروژه IT مسئوله که یه پروژه فنی (مثلاً راه‌اندازی یه نرم‌افزار جدید توی یه سازمان) به‌موقع، با بودجه مشخص و درست تموم بشه. برنامه‌ریزی می‌کنه، کارها رو بین آدم‌ها تقسیم می‌کنه، پیشرفت رو پیگیری می‌کنه و مشکل‌ها رو زودتر پیش‌بینی می‌کنه. مثل مدیر پروژه ساخت یه ساختمون.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 5,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 5,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "business",
+        "communication",
+        "systems",
+        "product"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "enterprise_it",
+        "digital_agency",
+        "bank_fintech",
+        "government_it"
+      ],
+      "essential_skills": [
+        "برنامه‌ریزی",
+        "مدیریت ریسک",
+        "بودجه و محدوده",
+        "مدیریت ذی‌نفع",
+        "گزارش‌دهی"
+      ],
+      "recommended_entry_route": "پروژه نمونه با محدوده، زمان‌بندی، ریسک، وابستگی‌ها و گزارش وضعیت طراحی کنید.",
+      "market_caveat": "مسئولیت و فشار ذی‌نفعان می‌تواند بالا باشد؛ نقش مدیریتی معمولاً سابقه می‌خواهد.",
+      "labels": [
+        "requires_strong_foundation",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "scrum_master",
+      "title_fa": "اسکرام مستر و تسهیل‌گر اجایل",
+      "title_en": "Scrum Master / Agile Facilitator",
+      "category_id": "design_product",
+      "plain_description": "توی خیلی از تیم‌های نرم‌افزاری، کارها به تکه‌های کوچیک چندهفته‌ای تقسیم می‌شه و تیم مرتب جلسه‌های کوتاه می‌ذاره. اسکرام مستر این روش کار تیمی رو اداره می‌کنه: جلسه‌ها رو هدایت می‌کنه، مانع‌های سر راه تیم رو برمی‌داره و کمک می‌کنه تیم هر بار بهتر از قبل کار کنه. مثل مربی یه تیم ورزشی که خودش بازی نمی‌کنه، ولی تیم رو منظم و هماهنگ نگه می‌داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 5,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "product",
+        "business",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "startup",
+        "enterprise_it",
+        "bank_fintech"
+      ],
+      "essential_skills": [
+        "Scrum/Kanban",
+        "تسهیل جلسات",
+        "رفع مانع",
+        "بهبود فرایند",
+        "کوچینگ تیم"
+      ],
+      "recommended_entry_route": "یک تجربه تیمی را با شواهد بهبود جریان کار و بازنگری فرایند تحلیل کنید.",
+      "market_caveat": "اجایل نوع روش کار است نه نوع قرارداد؛ فرصت‌ها اغلب کنار تیم‌های سازمانی‌اند.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "technical_writer",
+      "title_fa": "نویسنده فنی",
+      "title_en": "Technical Writer",
+      "category_id": "education_communication",
+      "plain_description": "نویسنده فنی راهنماها و دفترچه‌های استفاده از نرم‌افزارها و دستگاه‌ها رو می‌نویسه؛ طوری که آدم‌ها راحت بفهمن چطور ازشون استفاده کنن. مثلاً راهنمای نصب یه برنامه یا توضیح اینکه یه ابزار برنامه‌نویسی چطور کار می‌کنه. ترکیبی از ساده و روان نوشتن با شناخت کافی از فناوریه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 3,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 2,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "writing",
+        "communication",
+        "systems",
+        "research"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "technical_vendor",
+        "startup",
+        "freelance",
+        "education"
+      ],
+      "essential_skills": [
+        "نگارش روشن",
+        "Markdown",
+        "مستندسازی API",
+        "درک فنی",
+        "ویرایش"
+      ],
+      "recommended_entry_route": "مستندات یک API یا راهنمای نصب را با مثال و بازبینی فنی آماده کنید.",
+      "market_caveat": "وجود انگلیسی خوب می‌تواند دامنه فرصت‌ها را بزرگ‌تر کند.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "erp_implementation_consultant",
+      "title_fa": "مشاور پیاده‌سازی ERP",
+      "title_en": "ERP Implementation Consultant",
+      "category_id": "enterprise_apps",
+      "plain_description": "ERP یه نرم‌افزار بزرگه که همه کارهای یه شرکت رو یه‌جا مدیریت می‌کنه: حسابداری، انبار، فروش، خرید و حقوق. مشاور پیاده‌سازی ERP به شرکت‌ها کمک می‌کنه این نرم‌افزار رو مطابق کار خودشون تنظیم و راه‌اندازی کنن و به کارمندها یاد می‌ده باهاش کار کنن. اینجا شناخت کار شرکت‌ها به اندازه دانش فنی مهمه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 4,
+          "consultant": 5,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "business",
+        "communication",
+        "systems",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "industrial_company",
+        "enterprise_it",
+        "consulting",
+        "retail",
+        "government_it"
+      ],
+      "essential_skills": [
+        "فرایند مالی/انبار/فروش",
+        "تحلیل نیاز",
+        "آموزش کاربر",
+        "SQL پایه",
+        "مدیریت تغییر"
+      ],
+      "recommended_entry_route": "یک فرایند مشخص را در ERP آزمایشی پیکربندی و از نیازمندی تا آزمون مستند کنید.",
+      "market_caveat": "نیاز به فهم فرایند و تعامل با مشتری دارد؛ جلسات و حضور در محل ممکن است زیاد باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "crm_specialist",
+      "title_fa": "کارشناس CRM و اتوماسیون فروش",
+      "title_en": "CRM Specialist",
+      "category_id": "enterprise_apps",
+      "plain_description": "CRM نرم‌افزاریه که همه اطلاعات مشتری‌ها و مرحله‌های فروش یه شرکت رو نگه می‌داره؛ مثلاً اینکه با کدوم مشتری کی تماس گرفته شده و فروش به کجا رسیده. کارشناس CRM این نرم‌افزار رو راه‌اندازی می‌کنه، کارهای تکراری فروش رو خودکار می‌کنه و گزارش می‌سازه تا تیم فروش بهتر کار کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 4,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "business",
+        "automation",
+        "communication",
+        "data"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "digital_agency",
+        "ecommerce",
+        "enterprise_it",
+        "sales_team"
+      ],
+      "essential_skills": [
+        "CRM",
+        "قیف فروش",
+        "اتوماسیون",
+        "گزارش‌گیری",
+        "مدیریت داده مشتری"
+      ],
+      "recommended_entry_route": "یک CRM آزمایشی با مراحل فروش، قواعد اتوماسیون و گزارش مدیریتی پیاده کنید.",
+      "market_caveat": "مرز نقش با فروش، عملیات و بازاریابی بسته به شرکت متفاوت است.",
+      "labels": [
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "odoo_erp_consultant",
+      "title_fa": "مشاور و پیاده‌ساز Odoo/ERP متن‌باز",
+      "title_en": "Odoo / Open-source ERP Consultant",
+      "category_id": "enterprise_apps",
+      "plain_description": "اودو (Odoo) یه نرم‌افزار مدیریت کسب‌وکار رایگان و متن‌بازه که حسابداری، انبار، فروش و خیلی کارهای دیگه رو یه‌جا انجام می‌ده. این مشاور اودو رو برای شرکت‌ها نصب و تنظیم می‌کنه، اگه لازم باشه امکانات تازه بهش اضافه می‌کنه و به کارمندها آموزش می‌ده. برای شرکت‌های کوچیک و متوسطی که نمی‌خوان هزینه زیادی بدن خیلی جذابه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 5,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 4,
+          "project_contract": 5,
+          "consultant": 5,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "business",
+        "coding",
+        "communication",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "industrial_company",
+        "consulting",
+        "freelance",
+        "ecommerce"
+      ],
+      "essential_skills": [
+        "فرایند کسب‌وکار",
+        "Odoo یا ERP مشابه",
+        "پیکربندی",
+        "SQL/Python پایه",
+        "آموزش"
+      ],
+      "recommended_entry_route": "یک فرایند فروش یا انبار را در محیط دمو پیکربندی و سناریوی پذیرش بنویسید.",
+      "market_caveat": "پروژه‌ای است اما به تحلیل فرایند و پشتیبانی پس از استقرار هم نیاز دارد.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible",
+        "freelance_possible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "application_support_specialist",
+      "title_fa": "کارشناس پشتیبانی نرم‌افزار سازمانی",
+      "title_en": "Enterprise Application Support Specialist",
+      "category_id": "enterprise_apps",
+      "plain_description": "وقتی کارمندهای یه سازمان با نرم‌افزارهای کاریشون (مثل نرم‌افزار حسابداری یا اتوماسیون اداری) به مشکل می‌خورن، این کارشناس کمکشون می‌کنه. خطا رو بررسی می‌کنه، علتش رو پیدا می‌کنه، راه‌حل می‌ده و اگه لازم باشه مشکل رو به تیم برنامه‌نویسی گزارش می‌ده. مثل پشتیبان فنی مخصوص یه نرم‌افزار.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "troubleshooting",
+        "communication",
+        "business",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "bank_fintech",
+        "enterprise_it",
+        "software_company",
+        "government_it",
+        "hospital"
+      ],
+      "essential_skills": [
+        "عیب‌یابی نرم‌افزار",
+        "SQL پایه",
+        "تیکتینگ",
+        "گزارش رخداد",
+        "ارتباط کاربر"
+      ],
+      "recommended_entry_route": "چند مشکل فرضی را با شواهد، علت‌یابی و راهکار مستند کنید.",
+      "market_caveat": "بسته به محصول ممکن است شیفت، تماس تلفنی و پشتیبانی در محل داشته باشد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "insurance_more_likely_in_employment"
+      ]
+    },
+    {
+      "id": "implementation_consultant",
+      "title_fa": "کارشناس استقرار و آموزش نرم‌افزار",
+      "title_en": "Software Implementation Consultant",
+      "category_id": "enterprise_apps",
+      "plain_description": "وقتی یه شرکت نرم‌افزار جدیدی می‌خره، یکی باید اون رو نصب، تنظیم و آماده کنه، اطلاعات قدیمی رو بهش منتقل کنه و به کارمندها یاد بده باهاش کار کنن. کارشناس استقرار همین کار رو انجام می‌ده. مثل کسی که یه آشپزخونه جدید رو نصب می‌کنه و کار با همه وسایلش رو به صاحب‌خونه یاد می‌ده.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "business",
+        "problem_solving",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "smb",
+        "enterprise_it",
+        "consulting",
+        "healthcare"
+      ],
+      "essential_skills": [
+        "تحلیل نیاز",
+        "پیکربندی",
+        "آموزش کاربر",
+        "آزمون پذیرش",
+        "مدیریت تغییر"
+      ],
+      "recommended_entry_route": "برای یک نرم‌افزار دمو، برنامه استقرار، مهاجرت داده، آموزش و پذیرش تهیه کنید.",
+      "market_caveat": "رفت‌وآمد و جلسات مشتری می‌تواند زیاد باشد.",
+      "labels": [
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "solutions_presales_engineer",
+      "title_fa": "کارشناس پیش‌فروش فنی و راهکار",
+      "title_en": "Solutions / Pre-sales Engineer",
+      "category_id": "sales_customer_success",
+      "plain_description": "قبل از اینکه یه شرکت یه محصول فنی بزرگ (مثل یه نرم‌افزار یا سیستم شبکه) بخره، می‌خواد مطمئن بشه به دردش می‌خوره. کارشناس پیش‌فروش فنی نیاز مشتری رو می‌فهمه، محصول رو براش توضیح می‌ده و نمایش می‌ده و یه راه‌حل متناسب پیشنهاد می‌کنه. ترکیبی از دانش فنی و مهارت حرف زدن و قانع کردنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "systems",
+        "business",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "telecom",
+        "security_company",
+        "cloud_provider",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "شناخت محصول",
+        "ارائه فنی",
+        "کشف نیاز",
+        "طراحی راهکار",
+        "مستندسازی پیشنهاد"
+      ],
+      "recommended_entry_route": "برای یک نیاز فرضی، راهکار و دمو فنی بسازید و محدودیت‌ها را توضیح دهید.",
+      "market_caveat": "نقش ترکیبی فنی و تجاری؛ ممکن است هدف فروش و سفر کاری داشته باشد.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "it_sales_account_manager",
+      "title_fa": "فروشنده یا مدیر حساب در شرکت فناوری",
+      "title_en": "IT Sales / Account Manager",
+      "category_id": "sales_customer_success",
+      "plain_description": "این آدم محصولات و خدمات فناوری (مثل نرم‌افزار، سرور یا خدمات اینترنت) رو به شرکت‌ها و سازمان‌ها می‌فروشه و رابطه با مشتری رو حفظ می‌کنه. لازم نیست برنامه‌نویس باشه، ولی باید بفهمه محصولش چی کار می‌کنه و چه مشکلی از مشتری حل می‌کنه. برای آدم‌های خوش‌صحبت و اهل ارتباط مسیر جذابیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 2,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 4,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 2,
+          "project_contract": 4,
+          "consultant": 4,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "business",
+        "product"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "telecom",
+        "hardware_vendor",
+        "digital_agency",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "شناخت بازار",
+        "پیگیری مشتری",
+        "مذاکره",
+        "CRM",
+        "فهم راهکار فنی"
+      ],
+      "recommended_entry_route": "یک فرایند فروش B2B و پیشنهاد ارزش برای محصول فناوری را تمرین کنید.",
+      "market_caveat": "درآمد متغیر و هدف فروش می‌تواند فشارزا باشد؛ ساختار پورسانت را دقیق بخوانید.",
+      "labels": [
+        "entry_relatively_accessible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "customer_success_manager",
+      "title_fa": "مدیر موفقیت مشتری",
+      "title_en": "Customer Success Manager",
+      "category_id": "sales_customer_success",
+      "plain_description": "بعد از اینکه مشتری یه نرم‌افزار یا سرویس رو خرید، مدیر موفقیت مشتری کمکش می‌کنه واقعاً ازش نتیجه بگیره و راضی بمونه. مرتب با مشتری در ارتباطه، یادش می‌ده بهتر ازش استفاده کنه و قبل از اینکه مشتری ناراضی بشه و بره، مشکل رو حل می‌کنه. مثل یه مربی شخصی برای مشتری‌ها.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "business",
+        "product",
+        "data"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "saas",
+        "ecommerce",
+        "enterprise_it"
+      ],
+      "essential_skills": [
+        "Onboarding",
+        "تحلیل استفاده",
+        "مدیریت ارتباط",
+        "حل مسئله",
+        "شاخص‌های نگهداشت"
+      ],
+      "recommended_entry_route": "برنامه ورود مشتری، سنجش استفاده و فرایند رسیدگی به ریسک ریزش طراحی کنید.",
+      "market_caveat": "بیشتر در کسب‌وکارهای محصول‌محور و سرویس‌های تکرارشونده معنا دارد.",
+      "labels": [
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "technical_account_manager",
+      "title_fa": "مدیر حساب فنی",
+      "title_en": "Technical Account Manager",
+      "category_id": "sales_customer_success",
+      "plain_description": "مدیر حساب فنی رابط اصلی یه شرکت فناوری با مشتری‌های بزرگ و مهمشه. مشکل‌های فنی مشتری رو پیگیری می‌کنه، گزارش وضعیت سرویس رو بهش می‌ده و مطمئن می‌شه همه‌چیز طبق قرار انجام می‌شه. هم باید از نظر فنی وارد باشه و هم توی برخورد با آدم‌ها و مذاکره خوب باشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "systems",
+        "business",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "software_company",
+        "telecom",
+        "cloud_provider",
+        "bank_fintech"
+      ],
+      "essential_skills": [
+        "درک فنی عمیق",
+        "مدیریت رخداد",
+        "مذاکره",
+        "گزارش عملکرد",
+        "مدیریت ذی‌نفع"
+      ],
+      "recommended_entry_route": "نمونه گزارش سلامت سرویس و برنامه اقدام برای مشتری سازمانی بسازید.",
+      "market_caveat": "اغلب از تجربه فنی و مشتری‌محور به دست می‌آید و نقش جونیور خالص نیست.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "seo_specialist",
+      "title_fa": "کارشناس سئو",
+      "title_en": "SEO Specialist",
+      "category_id": "digital_marketing_content",
+      "plain_description": "وقتی چیزی رو توی گوگل جست‌وجو می‌کنی، بعضی سایت‌ها بالاتر نشون داده می‌شن. کارشناس سئو کاری می‌کنه که سایت یه کسب‌وکار توی نتیجه‌های گوگل بالاتر بیاد تا مشتری‌های بیشتری پیداش کنن. بررسی می‌کنه مردم چی جست‌وجو می‌کنن، محتوای سایت رو بهتر می‌کنه و رقیب‌ها رو زیر نظر داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 4,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 5,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 5
+        }
+      },
+      "interest_tags": [
+        "research",
+        "writing",
+        "data",
+        "business"
+      ],
+      "typical_workplaces": [
+        "digital_agency",
+        "smb",
+        "ecommerce",
+        "publisher",
+        "freelance"
+      ],
+      "essential_skills": [
+        "تحقیق کلمه کلیدی",
+        "On-page SEO",
+        "Search Console",
+        "تحلیل رقبا",
+        "محتوا"
+      ],
+      "recommended_entry_route": "سایت آزمایشی را بررسی کنید و تغییرها را با معیار و بازه زمانی مستند بسنجید.",
+      "market_caveat": "پروژه مشتری حقیقی/کسب‌وکار کوچک دسترس‌پذیر است اما نتایج سئو زمان‌بر و نامطمئن‌اند.",
+      "labels": [
+        "entry_relatively_accessible",
+        "market_opportunity_relatively_good",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "technical_seo_specialist",
+      "title_fa": "کارشناس سئوی تکنیکال",
+      "title_en": "Technical SEO Specialist",
+      "category_id": "digital_marketing_content",
+      "plain_description": "سئوی تکنیکال بخش فنی‌تر سئوئه. این کارشناس بررسی می‌کنه گوگل بتونه راحت صفحه‌های سایت رو پیدا کنه و بخونه، سایت سریع باز بشه و ساختار درستی داشته باشه. مثل مکانیکی که موتور ماشین رو تنظیم می‌کنه تا توی مسابقه جست‌وجوی گوگل جا نمونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 5,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "coding",
+        "data",
+        "problem_solving",
+        "research"
+      ],
+      "typical_workplaces": [
+        "digital_agency",
+        "ecommerce",
+        "publisher",
+        "software_company",
+        "freelance"
+      ],
+      "essential_skills": [
+        "HTTP و crawl",
+        "HTML",
+        "Schema",
+        "Core Web Vitals",
+        "لاگ و ابزارهای وبمستر"
+      ],
+      "recommended_entry_route": "یک سایت آزمایشی را برای crawl، index، structured data و کارایی ممیزی کنید.",
+      "market_caveat": "برای تمایز از سئوی عمومی، توانایی تشخیص مسئله فنی لازم است.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "web_analytics_specialist",
+      "title_fa": "کارشناس تحلیل وب و دیجیتال آنالیتیکس",
+      "title_en": "Web Analytics Specialist",
+      "category_id": "digital_marketing_content",
+      "plain_description": "این کارشناس با ابزارهایی مثل گوگل آنالیتیکس بررسی می‌کنه بازدیدکننده‌های یه سایت از کجا میان، چی کار می‌کنن و چرا خرید می‌کنن یا نمی‌کنن. بعد با گزارش و عدد به کسب‌وکار نشون می‌ده کجای سایت یا تبلیغاتش باید بهتر بشه. مثل کسی که رفت‌وآمد مشتری‌ها توی یه فروشگاه رو زیر نظر داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "data",
+        "business",
+        "research",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "ecommerce",
+        "digital_agency",
+        "publisher",
+        "startup",
+        "marketing_team"
+      ],
+      "essential_skills": [
+        "GA4 یا ابزار مشابه",
+        "Tagging",
+        "UTM",
+        "داشبورد",
+        "تفسیر آزمایش"
+      ],
+      "recommended_entry_route": "یک قیف تبدیل را با رویدادهای دقیق و گزارش تصمیم‌ساز تعریف کنید.",
+      "market_caveat": "محدودیت ابزارهای بین‌المللی و حریم خصوصی را در انتخاب ابزار لحاظ کنید.",
+      "labels": [
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "performance_marketer",
+      "title_fa": "کارشناس تبلیغات و پرفورمنس مارکتینگ",
+      "title_en": "Performance Marketer",
+      "category_id": "digital_marketing_content",
+      "plain_description": "پرفورمنس مارکتر تبلیغات اینترنتی یه کسب‌وکار رو اجرا و مدیریت می‌کنه؛ مثل تبلیغ توی گوگل، شبکه‌های اجتماعی یا سایت‌های دیگه. کارش اینه که با بودجه مشخص بیشترین مشتری رو جذب کنه و با عدد و رقم نشون بده هر تومن تبلیغ چقدر فروش آورده.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 4,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 4,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 5,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 4,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "data",
+        "business",
+        "communication",
+        "research"
+      ],
+      "typical_workplaces": [
+        "digital_agency",
+        "ecommerce",
+        "smb",
+        "startup",
+        "freelance"
+      ],
+      "essential_skills": [
+        "تحلیل کمپین",
+        "مدیریت بودجه",
+        "صفحه فرود",
+        "A/B testing",
+        "گزارش ROI"
+      ],
+      "recommended_entry_route": "یک کمپین فرضی با بودجه، مخاطب، شاخص موفقیت و تحلیل نتیجه طراحی کنید.",
+      "market_caveat": "عملکرد به بودجه، پلتفرم‌های در دسترس و شرایط بازار وابسته است.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "marketing_automation_specialist",
+      "title_fa": "متخصص اتوماسیون بازاریابی و CRM",
+      "title_en": "Marketing Automation Specialist",
+      "category_id": "digital_marketing_content",
+      "plain_description": "این متخصص کاری می‌کنه که پیام‌های بازاریابی خودکار و به‌موقع به دست مشتری‌ها برسه؛ مثلاً وقتی کسی توی سایت ثبت‌نام کرد، خودکار براش ایمیل خوش‌آمد بره یا اگه سبد خریدش رو نیمه‌کاره ول کرد، یادآوری بگیره. ترکیبی از بازاریابی، کار با داده و کمی کار فنیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "automation",
+        "data",
+        "business",
+        "coding"
+      ],
+      "typical_workplaces": [
+        "ecommerce",
+        "software_company",
+        "digital_agency",
+        "startup"
+      ],
+      "essential_skills": [
+        "CRM",
+        "تقسیم‌بندی مخاطب",
+        "اتوماسیون گردش کار",
+        "تحلیل کمپین",
+        "API پایه"
+      ],
+      "recommended_entry_route": "فرایند جذب تا پیگیری مشتری را با trigger، پیام و معیار موفقیت شبیه‌سازی کنید.",
+      "market_caveat": "نام ابزارها و امکانات در بازار ایران متفاوت است؛ مفاهیم قابل انتقال را یاد بگیرید.",
+      "labels": [
+        "requires_strong_foundation",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "technical_content_writer",
+      "title_fa": "نویسنده محتوای فناوری",
+      "title_en": "Technical Content Writer",
+      "category_id": "digital_marketing_content",
+      "plain_description": "نویسنده محتوای فناوری درباره موضوع‌های فنی و تکنولوژی مقاله، آموزش و مطلب می‌نویسه؛ طوری که خواننده راحت بفهمه. مثلاً مقاله «چطور یه گوشی خوب بخریم؟» یا «هوش مصنوعی چیه؟». باید اهل تحقیق باشه، درست و دقیق بنویسه و کمی هم سئو بلد باشه تا مطلبش توی گوگل دیده بشه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 2,
+        "responsibility_level": 2,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 4,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "writing",
+        "research",
+        "communication",
+        "technology"
+      ],
+      "typical_workplaces": [
+        "digital_agency",
+        "software_company",
+        "publisher",
+        "smb",
+        "freelance"
+      ],
+      "essential_skills": [
+        "تحقیق",
+        "ویرایش",
+        "توضیح مفاهیم فنی",
+        "سئو پایه",
+        "راستی‌آزمایی"
+      ],
+      "recommended_entry_route": "سه مقاله تخصصی دقیق با منبع، مثال و ساختار روشن منتشر کنید.",
+      "market_caveat": "ثبات و درآمد به کیفیت، تخصص موضوعی و مدل همکاری بستگی دارد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "website_content_manager",
+      "title_fa": "مدیر محتوای سایت",
+      "title_en": "Website Content Manager",
+      "category_id": "digital_marketing_content",
+      "plain_description": "مدیر محتوای سایت تصمیم می‌گیره چه مطالب، عکس‌ها و صفحه‌هایی توی یه سایت منتشر بشه، کی منتشر بشه و کیفیتش چطور باشه. برنامه انتشار می‌چینه، متن‌ها رو ویرایش می‌کنه و حواسش هست سایت همیشه به‌روز و مرتب باشه. مثل سردبیر یه مجله، ولی برای یه سایت.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 2,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "writing",
+        "routine",
+        "business",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "ecommerce",
+        "publisher",
+        "digital_agency",
+        "smb",
+        "in_house_it"
+      ],
+      "essential_skills": [
+        "CMS",
+        "ویرایش",
+        "تقویم محتوا",
+        "سئو پایه",
+        "کنترل کیفیت"
+      ],
+      "recommended_entry_route": "یک تقویم محتوایی، فرایند تأیید و چک‌لیست انتشار بسازید.",
+      "market_caveat": "ممکن است نقش ترکیبی بارگذاری محصول، ویرایش و هماهنگی باشد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "it_trainer",
+      "title_fa": "مدرس مهارت‌های IT",
+      "title_en": "IT Trainer",
+      "category_id": "education_communication",
+      "plain_description": "مدرس IT مهارت‌های کامپیوتری و فنی رو به بقیه یاد می‌ده؛ از کار با برنامه‌های اداری گرفته تا شبکه و امنیت. توی آموزشگاه‌ها، شرکت‌ها یا به‌صورت آنلاین کلاس برگزار می‌کنه، تمرین طراحی می‌کنه و به سؤال‌ها جواب می‌ده. هم باید موضوع رو خوب بلد باشه و هم بتونه ساده و جذاب توضیح بده.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 3,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 4,
+          "medium_large_organization": 3,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 4,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "teaching",
+        "communication",
+        "technology",
+        "writing"
+      ],
+      "typical_workplaces": [
+        "school_university",
+        "training_center",
+        "online_education",
+        "freelance",
+        "smb"
+      ],
+      "essential_skills": [
+        "تسلط موضوعی",
+        "طراحی درس",
+        "ارائه",
+        "تمرین عملی",
+        "بازخورد"
+      ],
+      "recommended_entry_route": "یک درس کوتاه با هدف، تمرین، ارزیابی و نمونه قابل اجرا ضبط یا ارائه کنید.",
+      "market_caveat": "درآمد تابع اعتبار، بازاریابی، مهارت تدریس و مدل مرکز آموزشی است.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "programming_instructor",
+      "title_fa": "مدرس برنامه‌نویسی",
+      "title_en": "Programming Instructor",
+      "category_id": "education_communication",
+      "plain_description": "مدرس برنامه‌نویسی به آدم‌ها یاد می‌ده چطور برنامه بنویسن؛ توی آموزشگاه، دانشگاه، بوت‌کمپ یا دوره‌های آنلاین. درس رو طراحی می‌کنه، تمرین می‌ده، کد شاگردها رو بررسی می‌کنه و وقتی گیر می‌کنن کمکشون می‌کنه راهشون رو پیدا کنن.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 3,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 3,
+          "medium_large_organization": 3,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "teaching",
+        "coding",
+        "communication",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "training_center",
+        "school_university",
+        "online_education",
+        "freelance"
+      ],
+      "essential_skills": [
+        "تسلط زبان/مسیر",
+        "حل مسئله",
+        "طراحی تمرین",
+        "بازبینی کد",
+        "ارتباط"
+      ],
+      "recommended_entry_route": "یک مسیر آموزشی همراه تمرین، پروژه پایانی و معیار ارزیابی طراحی کنید.",
+      "market_caveat": "دانش فنی بدون توان توضیح و بازخورد کافی نیست.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "it_documentation_specialist",
+      "title_fa": "کارشناس مستندسازی و دانش سازمانی IT",
+      "title_en": "IT Documentation Specialist",
+      "category_id": "education_communication",
+      "plain_description": "توی هر سازمان کلی دانش فنی فقط توی ذهن آدم‌ها مونده؛ مثلاً اینکه یه سرور چطور راه‌اندازی شده یا وقتی یه مشکل خاص پیش اومد چی کار باید کرد. این کارشناس این دانسته‌ها رو از متخصص‌ها می‌گیره و به شکل راهنماها و دستورالعمل‌های مرتب می‌نویسه تا اگه کسی رفت یا نیروی تازه اومد، کار لنگ نمونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 3,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 2,
+        "responsibility_level": 3,
+        "routine_level": 5,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "writing",
+        "systems",
+        "routine",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "software_company",
+        "government_it",
+        "consulting"
+      ],
+      "essential_skills": [
+        "مستندسازی فرایند",
+        "Markdown/Wiki",
+        "مدیریت نسخه",
+        "مصاحبه فنی",
+        "کنترل تغییر"
+      ],
+      "recommended_entry_route": "یک Runbook، دستورالعمل رفع خطا و راهنمای ورود نیروی جدید تهیه کنید.",
+      "market_caveat": "گاهی بخشی از یک نقش دیگر است نه عنوان شغلی مستقل.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "computer_repair_technician",
+      "title_fa": "تعمیرکار کامپیوتر و لپ‌تاپ",
+      "title_en": "Computer Repair Technician",
+      "category_id": "hardware_iot",
+      "plain_description": "تعمیرکار کامپیوتر و لپ‌تاپ همونیه که وقتی لپ‌تاپت روشن نمی‌شه، کند شده یا صفحه‌ش شکسته، می‌بریش پیشش. مشکل رو پیدا می‌کنه، قطعه عوض می‌کنه، ویندوز نصب می‌کنه و اطلاعاتت رو نجات می‌ده. کاری کاملاً عملی و دستیه و می‌شه مغازه یا کار مستقل خودت رو داشته باشی.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 1,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 2,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 2,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 5,
+          "small_business": 4,
+          "medium_large_organization": 2,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 2,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 5
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "troubleshooting",
+        "communication",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "repair_shop",
+        "smb",
+        "freelance",
+        "retail"
+      ],
+      "essential_skills": [
+        "عیب‌یابی سخت‌افزار",
+        "نصب سیستم‌عامل",
+        "بکاپ",
+        "تعویض قطعه",
+        "ارتباط مشتری"
+      ],
+      "recommended_entry_route": "چک‌لیست تشخیص عیب و مستندات چند تعمیر واقعی/تمرینی تهیه کنید.",
+      "market_caveat": "درآمد وابسته به محل، اعتبار، هزینه قطعات و اعتماد مشتری است.",
+      "labels": [
+        "entry_relatively_accessible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "network_cabling_technician",
+      "title_fa": "تکنسین نصب شبکه و کابل‌کشی",
+      "title_en": "Network Cabling Technician",
+      "category_id": "hardware_iot",
+      "plain_description": "وقتی یه دفتر یا ساختمون جدید راه می‌افته، باید کابل‌های شبکه و اینترنت توی دیوارها و سقف کشیده بشه و به اتاق‌ها برسه. تکنسین کابل‌کشی شبکه این کابل‌ها رو می‌کشه، سرشون رو می‌بنده، تست می‌کنه و تجهیزات رو توی رک (کمد مخصوص شبکه) مرتب نصب می‌کنه. کاری فیزیکی، دقیق و میدانیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 1,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 2,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 2,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 4,
+          "project_contract": 5,
+          "consultant": 3,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "troubleshooting",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "installation_company",
+        "smb",
+        "enterprise_it",
+        "telecom",
+        "freelance"
+      ],
+      "essential_skills": [
+        "کابل‌کشی ساخت‌یافته",
+        "سوکت‌زنی",
+        "تست کابل",
+        "رک",
+        "ایمنی"
+      ],
+      "recommended_entry_route": "طرح ساده شبکه یک دفتر را با لیست تجهیزات و نقشه پورت تهیه کنید.",
+      "market_caveat": "کاملاً حضوری و فیزیکی است و ابزار و رفت‌وآمد لازم دارد.",
+      "labels": [
+        "entry_relatively_accessible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "cctv_access_control_technician",
+      "title_fa": "تکنسین دوربین مداربسته و کنترل تردد",
+      "title_en": "CCTV & Access Control Technician",
+      "category_id": "hardware_iot",
+      "plain_description": "این تکنسین دوربین‌های مداربسته و سیستم‌های کنترل ورود و خروج (مثل درهای کارتی یا اثرانگشتی) رو برای خونه‌ها، مغازه‌ها و شرکت‌ها نصب و راه‌اندازی می‌کنه. تنظیم می‌کنه که تصویرها ضبط بشن و صاحب ملک بتونه از روی گوشیش ببینه. کار عملی و میدانیه و تقریباً توی همه شهرها مشتری داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 2,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 5,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 3,
+          "self_employed": 5
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "troubleshooting",
+        "systems",
+        "communication"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "installation_company",
+        "industrial_company",
+        "residential",
+        "freelance"
+      ],
+      "essential_skills": [
+        "دوربین و NVR",
+        "شبکه پایه",
+        "کابل‌کشی",
+        "کنترل دسترسی",
+        "حریم خصوصی"
+      ],
+      "recommended_entry_route": "یک طرح نصب امن با نقشه نقاط، ذخیره‌سازی و مستندات نگهداری آماده کنید.",
+      "market_caveat": "کار میدانی و تعهد نگهداری وجود دارد؛ رعایت حریم خصوصی و قوانین مهم است.",
+      "labels": [
+        "entry_relatively_accessible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "iot_engineer",
+      "title_fa": "مهندس اینترنت اشیا (IoT)",
+      "title_en": "IoT Engineer",
+      "category_id": "hardware_iot",
+      "plain_description": "اینترنت اشیا یعنی وسایل معمولی به اینترنت وصل بشن و هوشمند بشن؛ مثل کولری که از روی گوشی روشن می‌شه یا گلخونه‌ای که خودش آبیاری می‌کنه. مهندس IoT این وسایل هوشمند رو طراحی می‌کنه؛ هم سخت‌افزار و حسگرهاش رو و هم برنامه‌ای که اطلاعات رو بفرسته و کنترلش کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 2,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 4,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "coding",
+        "systems",
+        "automation"
+      ],
+      "typical_workplaces": [
+        "industrial_company",
+        "electronics_company",
+        "startup",
+        "research",
+        "agriculture"
+      ],
+      "essential_skills": [
+        "میکروکنترلر",
+        "شبکه و پروتکل‌ها",
+        "Python/C/C++",
+        "سنسور",
+        "امنیت دستگاه"
+      ],
+      "recommended_entry_route": "پروژه سنسور تا داشبورد با مدیریت خطا و امنیت پایه بسازید.",
+      "market_caveat": "پروژه به تجهیزات فیزیکی و گاهی همکاری میان‌رشته‌ای وابسته است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "robotics_automation_engineer",
+      "title_fa": "مهندس رباتیک و اتوماسیون صنعتی",
+      "title_en": "Robotics / Industrial Automation Engineer",
+      "category_id": "hardware_iot",
+      "plain_description": "توی کارخونه‌ها خیلی از کارها رو ماشین‌ها و ربات‌ها خودکار انجام می‌دن. مهندس رباتیک و اتوماسیون صنعتی این دستگاه‌ها رو برنامه‌ریزی، تنظیم و تعمیر می‌کنه تا خط تولید بدون توقف و ایمن کار کنه. بیشتر توی کارخونه‌ها و صنایع کار می‌کنه و کارش ترکیبی از برق، مکانیک و برنامه‌نویسیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 5,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 5,
+        "job_stability": 4,
+        "insurance_likelihood_in_employee_roles": 4,
+        "stress_level": 4,
+        "responsibility_level": 5,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 5,
+          "freelance": 1,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "systems",
+        "coding",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "industrial_company",
+        "manufacturing",
+        "research",
+        "automation_vendor"
+      ],
+      "essential_skills": [
+        "کنترل و ابزار دقیق",
+        "PLC/SCADA یا ROS",
+        "الکترونیک",
+        "ایمنی صنعتی",
+        "عیب‌یابی"
+      ],
+      "recommended_entry_route": "یک شبیه‌سازی کنترل ساده با سناریوی خطا و مستندات فنی انجام دهید.",
+      "market_caveat": "عموماً نیازمند آموزش تخصصی، تجهیزات یا حضور در کارخانه است.",
+      "labels": [
+        "requires_strong_foundation",
+        "high_income_ceiling",
+        "insurance_more_likely_in_employment",
+        "high_stress_or_urgency_possible"
+      ]
+    },
+    {
+      "id": "electronics_test_engineer",
+      "title_fa": "مهندس تست الکترونیک",
+      "title_en": "Electronics Test Engineer",
+      "category_id": "hardware_iot",
+      "plain_description": "قبل از اینکه یه دستگاه الکترونیکی (مثل یه برد مدار یا یه وسیله برقی) تولید انبوه بشه یا به دست مشتری برسه، باید تست بشه. مهندس تست الکترونیک با ابزارهای اندازه‌گیری دستگاه رو امتحان می‌کنه، خطاها رو پیدا می‌کنه و نتیجه رو دقیق ثبت و گزارش می‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 4,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 1,
+          "hybrid": 3,
+          "onsite": 5
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 2,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "hardware",
+        "research",
+        "problem_solving",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "electronics_company",
+        "industrial_company",
+        "automotive",
+        "research"
+      ],
+      "essential_skills": [
+        "الکترونیک",
+        "ابزار اندازه‌گیری",
+        "تست و عیب‌یابی",
+        "ثبت نتایج",
+        "ایمنی"
+      ],
+      "recommended_entry_route": "گزارش آزمایش فنی با روش، ابزار، معیار قبولی و تحلیل خطا آماده کنید.",
+      "market_caveat": "بازار تخصصی و وابسته به صنایع الکترونیک/تولیدی است.",
+      "labels": [
+        "requires_strong_foundation"
+      ]
+    },
+    {
+      "id": "gis_specialist",
+      "title_fa": "کارشناس GIS و سامانه اطلاعات جغرافیایی",
+      "title_en": "GIS Specialist",
+      "category_id": "specialized_it",
+      "plain_description": "GIS یعنی کار با نقشه و اطلاعات مکانی روی کامپیوتر. این کارشناس نقشه‌های هوشمند می‌سازه و تحلیل می‌کنه؛ مثلاً اینکه بهترین جا برای یه شعبه جدید کجاست، کدوم محله‌ها بیشتر آب مصرف می‌کنن یا بهترین مسیر یه کامیون پخش کدومه. توی شهرداری‌ها، شرکت‌های عمرانی، کشاورزی و سازمان‌ها کاربرد داره.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 3,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 5,
+          "public_sector": 5
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 2,
+          "project_contract": 3,
+          "consultant": 4,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "data",
+        "research",
+        "visual",
+        "systems"
+      ],
+      "typical_workplaces": [
+        "government_it",
+        "urban_planning",
+        "telecom",
+        "industrial_company",
+        "consulting"
+      ],
+      "essential_skills": [
+        "QGIS/ArcGIS",
+        "داده مکانی",
+        "SQL فضایی پایه",
+        "نقشه‌سازی",
+        "کنترل کیفیت داده"
+      ],
+      "recommended_entry_route": "یک پروژه مکانی تمیز با لایه‌ها، تحلیل و نقشه نهایی بسازید.",
+      "market_caveat": "فرصت‌ها به شهر، صنعت و پروژه‌های عمرانی/شهری وابسته‌اند.",
+      "labels": [
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "rpa_automation_developer",
+      "title_fa": "توسعه‌دهنده اتوماسیون فرایند (RPA)",
+      "title_en": "RPA Developer",
+      "category_id": "specialized_it",
+      "plain_description": "توی خیلی از شرکت‌ها کارمندها هر روز کارهای تکراری و خسته‌کننده با کامپیوتر انجام می‌دن؛ مثل کپی کردن اطلاعات از یه فرم به یه نرم‌افزار دیگه. توسعه‌دهنده RPA «ربات‌های نرم‌افزاری» می‌سازه که این کارهای تکراری رو خودکار و بدون خستگی انجام بدن. مثل یه کارمند دیجیتال که هیچ‌وقت اشتباه تایپی نمی‌کنه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 4,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 4,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 2,
+          "small_business": 4,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 3,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 2
+        }
+      },
+      "interest_tags": [
+        "automation",
+        "business",
+        "coding",
+        "problem_solving"
+      ],
+      "typical_workplaces": [
+        "enterprise_it",
+        "bank_fintech",
+        "consulting",
+        "smb"
+      ],
+      "essential_skills": [
+        "تحلیل فرایند",
+        "Python یا ابزار RPA",
+        "خطا و استثنا",
+        "کنترل دسترسی",
+        "مستندسازی"
+      ],
+      "recommended_entry_route": "یک فرایند تکراری را با داده آزمایشی خودکار کنید و حالت‌های شکست را پوشش دهید.",
+      "market_caveat": "عنوان‌ها متنوع‌اند و گاهی زیرمجموعه تحلیل کسب‌وکار یا اتوماسیون‌اند.",
+      "labels": [
+        "remote_compatible"
+      ]
+    },
+    {
+      "id": "no_code_low_code_builder",
+      "title_fa": "سازنده راهکارهای Low-code/No-code",
+      "title_en": "Low-code / No-code Builder",
+      "category_id": "specialized_it",
+      "plain_description": "این آدم بدون برنامه‌نویسی سنگین و با ابزارهای آماده (که بیشترش کشیدن، رها کردن و تنظیم کردنه) برای کسب‌وکارها فرم، اپ ساده، گزارش و گردش کار خودکار می‌سازه. مثل ساختن خونه با قطعه‌های پیش‌ساخته به جای آجر و ملات. راه خوبیه برای کسایی که می‌خوان سریع وارد کار بشن.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 2,
+        "responsibility_level": 3,
+        "routine_level": 3,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 4,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 5,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 5
+        }
+      },
+      "interest_tags": [
+        "automation",
+        "business",
+        "visual",
+        "product"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "digital_agency",
+        "freelance",
+        "startup"
+      ],
+      "essential_skills": [
+        "تحلیل فرایند",
+        "ابزارهای Low-code",
+        "API",
+        "طراحی فرم",
+        "کنترل داده"
+      ],
+      "recommended_entry_route": "یک فرم/داشبورد عملی با گردش کار و اتصال API بسازید.",
+      "market_caveat": "برای ماندگاری شغلی باید تحلیل فرایند، یکپارچه‌سازی و امنیت را هم یاد بگیرید.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "technical_project_coordinator",
+      "title_fa": "هماهنگ‌کننده پروژه فنی",
+      "title_en": "Technical Project Coordinator",
+      "category_id": "specialized_it",
+      "plain_description": "هماهنگ‌کننده پروژه فنی دستیار و بازوی مدیر پروژه‌ست. کارها رو پیگیری می‌کنه، جلسه‌ها رو هماهنگ می‌کنه، تصمیم‌ها رو یادداشت می‌کنه و گزارش وضعیت هفتگی آماده می‌کنه تا همه بدونن پروژه کجاست. برای آدم‌های منظم و اهل ارتباط که دوست دارن وارد پروژه‌های فنی بشن، شروع خوبیه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 3,
+        "insurance_likelihood_in_employee_roles": 3,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 3,
+          "hybrid": 5,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 1,
+          "small_business": 3,
+          "medium_large_organization": 4,
+          "public_sector": 3
+        },
+        "work_arrangement_fit": {
+          "employee": 4,
+          "freelance": 1,
+          "project_contract": 2,
+          "consultant": 3,
+          "self_employed": 1
+        }
+      },
+      "interest_tags": [
+        "communication",
+        "business",
+        "systems",
+        "routine"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "enterprise_it",
+        "digital_agency",
+        "telecom"
+      ],
+      "essential_skills": [
+        "پیگیری کار",
+        "مستندسازی",
+        "ابزار مدیریت پروژه",
+        "گزارش وضعیت",
+        "هماهنگی ذی‌نفعان"
+      ],
+      "recommended_entry_route": "یک برد پروژه، ثبت تصمیم‌ها، وابستگی‌ها و گزارش هفتگی نمونه بسازید.",
+      "market_caveat": "ممکن است عنوان ورودی برای مسیر مدیریت پروژه باشد؛ اختیار تصمیم‌گیری محدودتر است.",
+      "labels": [
+        "entry_relatively_accessible"
+      ]
+    },
+    {
+      "id": "technical_translator",
+      "title_fa": "مترجم فنی IT",
+      "title_en": "Technical Translator",
+      "category_id": "education_communication",
+      "plain_description": "مترجم فنی IT متن‌های تخصصی کامپیوتر و فناوری رو از انگلیسی به فارسی (یا برعکس) ترجمه می‌کنه؛ مثل راهنمای نرم‌افزارها، مقاله‌های آموزشی یا متن اپلیکیشن‌ها. باید هم انگلیسیش خوب باشه و هم اصطلاح‌های فنی رو درست بفهمه تا ترجمه دقیق و روون دربیاد.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 3,
+        "relative_market_opportunity": 2,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 2,
+        "responsibility_level": 2,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 5,
+          "hybrid": 3,
+          "onsite": 3
+        },
+        "client_type_fit": {
+          "individual": 3,
+          "small_business": 3,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 4,
+          "project_contract": 4,
+          "consultant": 3,
+          "self_employed": 3
+        }
+      },
+      "interest_tags": [
+        "writing",
+        "research",
+        "communication",
+        "technology"
+      ],
+      "typical_workplaces": [
+        "software_company",
+        "technical_vendor",
+        "publisher",
+        "freelance",
+        "education"
+      ],
+      "essential_skills": [
+        "انگلیسی فنی",
+        "اصطلاح‌شناسی",
+        "ویرایش",
+        "ابزارهای ترجمه",
+        "درک موضوعی IT"
+      ],
+      "recommended_entry_route": "یک راهنمای فنی را با واژه‌نامه ثابت ترجمه و توسط متخصص بازبینی کنید.",
+      "market_caveat": "ترجمه عمومی به‌تنهایی مزیت کافی نیست؛ تخصص فنی و کیفیت زبان را با هم بسازید.",
+      "labels": [
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    },
+    {
+      "id": "webmaster_site_reliability",
+      "title_fa": "مدیر وب‌سایت و نگهداری فنی سایت",
+      "title_en": "Website Administrator / Webmaster",
+      "category_id": "specialized_it",
+      "plain_description": "مدیر وب‌سایت مراقبه که یه سایت همیشه باز، سالم، به‌روز و امن باشه. دامنه و هاست رو مدیریت می‌کنه، از سایت بکاپ می‌گیره، افزونه‌ها و نرم‌افزارها رو به‌روز می‌کنه و اگه سایت از دسترس خارج شد، سریع درستش می‌کنه. مثل سرایدار یه ساختمون که نمی‌ذاره چیزی خراب بمونه.",
+      "ratings_1_to_5": {
+        "entry_difficulty": 2,
+        "relative_market_opportunity": 3,
+        "income_ceiling": 3,
+        "job_stability": 2,
+        "insurance_likelihood_in_employee_roles": 2,
+        "stress_level": 3,
+        "responsibility_level": 3,
+        "routine_level": 4,
+        "work_mode_fit": {
+          "remote": 4,
+          "hybrid": 4,
+          "onsite": 4
+        },
+        "client_type_fit": {
+          "individual": 4,
+          "small_business": 5,
+          "medium_large_organization": 3,
+          "public_sector": 2
+        },
+        "work_arrangement_fit": {
+          "employee": 3,
+          "freelance": 4,
+          "project_contract": 5,
+          "consultant": 4,
+          "self_employed": 4
+        }
+      },
+      "interest_tags": [
+        "systems",
+        "visual",
+        "troubleshooting",
+        "business"
+      ],
+      "typical_workplaces": [
+        "smb",
+        "ecommerce",
+        "digital_agency",
+        "publisher",
+        "freelance"
+      ],
+      "essential_skills": [
+        "CMS",
+        "دامنه و DNS",
+        "بکاپ",
+        "مانیتورینگ",
+        "به‌روزرسانی و امنیت پایه"
+      ],
+      "recommended_entry_route": "فرایند نگهداری سایت با مانیتورینگ، تست بازیابی و ثبت تغییرات ایجاد کنید.",
+      "market_caveat": "شرح قرارداد باید مسئولیت خرابی، بکاپ، امنیت و زمان پاسخ را روشن کند.",
+      "labels": [
+        "entry_relatively_accessible",
+        "remote_compatible",
+        "freelance_possible"
+      ]
+    }
+  ]
+}

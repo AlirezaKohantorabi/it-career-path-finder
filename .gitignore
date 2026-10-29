@@ -1,0 +1,10 @@
+/dist/
+/vendor/
+/node_modules/
+/tests/.tmp/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ITCP JS tests</title>
+	<link rel="stylesheet" href="../../assets/css/app.css">
+	<style>
+		body { font-family: Tahoma, sans-serif; margin: 24px; }
+		#results li.pass { color: #0d7a3a; }
+		#results li.fail { color: #b91c1c; font-weight: bold; }
+		#fixture { max-width: 760px; }
+	</style>
+</head>
+<body>
+	<h1 id="summary">در حال اجرای تست‌ها...</h1>
+	<ol id="results"></ol>
+	<div id="fixture">
+		<div class="itcp-app itcp-scope" id="itcp-app-9" dir="rtl" data-itcp-app-fixture data-itcp-instance="9">
+			<div class="itcp-shell" data-itcp="shell">
+				<div class="itcp-head">
+					<div class="itcp-head-top">
+						<span class="itcp-chip-h" data-itcp="phase"></span>
+						<span class="itcp-chip-h itcp-chip-time"><span data-itcp="time"></span></span>
+						<button type="button" class="itcp-restart" data-itcp="restart"><span>restart</span></button>
+					</div>
+					<h2 class="itcp-title">fixture</h2>
+					<div class="itcp-meta"><span data-itcp="step"></span><span class="itcp-meta-left"><span data-itcp="left"></span></span></div>
+					<div class="itcp-track" role="progressbar" data-itcp="bar"><div class="itcp-fill" data-itcp="fill"></div></div>
+				</div>
+				<nav class="itcp-dots" data-itcp="dots"></nav>
+				<form class="itcp-form" data-itcp="form" novalidate>
+					<div class="itcp-body" data-itcp="question"></div>
+					<div class="itcp-foot">
+						<button type="button" class="itcp-btn itcp-btn-s" data-itcp="previous"><span>previous</span></button>
+						<button type="button" class="itcp-btn itcp-btn-p" data-itcp="next"><span data-itcp="next-label">next</span></button>
+					</div>
+				</form>
+				<div class="itcp-res" data-itcp="results"></div>
+			</div>
+			<div class="itcp-toast" data-itcp="toast" role="status"></div>
+		</div>
+	</div>
+	<script src="../../assets/js/format.js"></script>
+	<script src="../../assets/js/dom.js"></script>
+	<script src="../../assets/js/scroll.js"></script>
+	<script src="../../assets/js/dataset.js"></script>
+	<script src="../../assets/js/state.js"></script>
+	<script src="../../assets/js/storage.js"></script>
+	<script src="../../assets/js/assessment.js"></script>
+	<script src="../../assets/js/scoring.js"></script>
+	<script src="../../assets/js/ranking.js"></script>
+	<script src="../../assets/js/conflicts.js"></script>
+	<script src="../../assets/js/plan.js"></script>
+	<script src="../../assets/js/progress-view.js"></script>
+	<script src="../../assets/js/question-view.js"></script>
+	<script src="../../assets/js/role-card.js"></script>
+	<script src="../../assets/js/result-actions.js"></script>
+	<script src="../../assets/js/results-view.js"></script>
+	<script src="../../assets/js/finder.js"></script>
+	<script src="tests.js"></script>
+</body>
+</html>

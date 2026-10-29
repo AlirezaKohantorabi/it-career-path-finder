@@ -1,0 +1,316 @@
+{
+  "schema_version": "2.0.0",
+  "sections": [
+    { "id": "goals", "title": "هدف‌ها و شیوه کار" },
+    { "id": "money", "title": "درآمد، ثبات و بیمه" },
+    { "id": "style", "title": "حال‌وهوای کار" },
+    { "id": "skills", "title": "علاقه‌ها، مهارت و زمان" },
+    { "id": "place", "title": "محل زندگی و تعهدها" }
+  ],
+  "summary_questions": [
+    "primary_goal",
+    "client_type",
+    "income_target",
+    "insurance_requirement",
+    "current_level",
+    "time_to_entry",
+    "on_call_tolerance"
+  ],
+  "questions": [
+    {
+      "id": "primary_goal",
+      "section": "goals",
+      "title": "الان مهم‌ترین هدفت از ورود به دنیای IT چیه؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "اون چیزی رو انتخاب کن که همین الان از همه برات مهم‌تره. هر وقت خواستی می‌تونی برگردی و عوضش کنی.",
+      "options": [
+        { "value": "fast_entry", "label": "زودتر سر کار برم، حتی اگه اولش درآمدم کم باشه" },
+        { "value": "income_growth", "label": "توی آینده درآمد خوبی داشته باشم" },
+        { "value": "stability", "label": "کارم ثابت باشه و آینده‌ش قابل پیش‌بینی" },
+        { "value": "freedom", "label": "آزاد باشم و برای خودم کار کنم" },
+        { "value": "remote", "label": "بتونم از خونه کار کنم" },
+        { "value": "meaning_interest", "label": "از همه مهم‌تر اینه که کارم رو دوست داشته باشم" },
+        { "value": "career_growth", "label": "توی کارم رشد کنم و متخصص بشم" }
+      ]
+    },
+    {
+      "id": "client_type",
+      "section": "goals",
+      "title": "دوست داری بیشتر برای چه کسایی کار کنی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "«شخص حقیقی» یعنی یه آدم مشخص (مثلاً یه دکتر یا یه عکاس). «شخص حقوقی» یعنی یه شرکت یا سازمان. این سؤال درباره مشتریته، نه نوع قراردادت.",
+      "options": [
+        { "value": "individual", "label": "اشخاص حقیقی؛ یعنی آدم‌ها، مثلاً یه دکتر یا یه عکاس" },
+        { "value": "small_business", "label": "کسب‌وکارهای کوچیک و متوسط؛ مثل مغازه‌ها و شرکت‌های کوچیک" },
+        { "value": "medium_large_organization", "label": "شرکت‌ها و سازمان‌های بزرگ (اشخاص حقوقی)" },
+        { "value": "public_sector", "label": "اداره‌های دولتی و سازمان‌های عمومی" },
+        { "value": "no_preference", "label": "فرقی نمی‌کنه؛ همه رو بررسی کن" }
+      ]
+    },
+    {
+      "id": "work_arrangement",
+      "section": "goals",
+      "title": "دوست داری به چه شکلی کار کنی؟ (شیوه کار)",
+      "type": "multi_select",
+      "required": true,
+      "hint": "هر چندتا که برات قابل قبوله رو تیک بزن؛ مثلاً هم استخدام رسمی و هم کار پروژه‌ای.",
+      "options": [
+        { "value": "employee", "label": "استخدام رسمی توی یه شرکت، با حقوق ثابت ماهانه" },
+        { "value": "project_contract", "label": "پیمانکاری برای شرکت‌ها؛ یه قرارداد برای یه کار مشخص با زمان تحویل معلوم" },
+        { "value": "freelance", "label": "پروژه‌ای برای اشخاص حقیقی یا حقوقی (فریلنسری)؛ هر بار یه پروژه از یه مشتری" },
+        { "value": "consultant", "label": "مشاوره دادن به شرکت‌ها یا آدم‌ها به‌عنوان متخصص" },
+        { "value": "self_employed", "label": "راه انداختن کسب‌وکار یا خدمات خودم" },
+        { "value": "internship", "label": "کارآموزی؛ یه شروع برای یاد گرفتن توی محیط واقعی" }
+      ]
+    },
+    {
+      "id": "income_target",
+      "section": "money",
+      "title": "انتظارت از درآمد چقدره؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "معمولاً هرچی سقف درآمد یه شغل بالاتره، یاد گرفتنش بیشتر طول می‌کشه و مسئولیتش هم سنگین‌تره.",
+      "options": [
+        { "value": "low_entry_acceptable", "label": "اولش درآمد کم هم باشه اشکال نداره، فقط زودتر شروع کنم" },
+        { "value": "market_median", "label": "یه درآمد معمولی و منصفانه، هم‌اندازه بقیه هم‌سطح‌های خودم" },
+        { "value": "above_market", "label": "بیشتر از میانگین بازار" },
+        { "value": "very_high", "label": "درآمد خیلی بالا؛ حتی اگه راهش سخت‌تر و طولانی‌تر باشه" }
+      ]
+    },
+    {
+      "id": "security_priority",
+      "section": "money",
+      "title": "ثبات و امنیت شغلی چقدر برات مهمه؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "امنیت شغلی یعنی کارت یهو قطع نشه و قراردادت ثابت باشه.",
+      "options": [
+        { "value": "low", "label": "زیاد مهم نیست؛ با تغییر و ریسک کنار میام" },
+        { "value": "medium", "label": "مهمه، ولی تنها چیزی نیست که بهش فکر می‌کنم" },
+        { "value": "high", "label": "خیلی مهمه" },
+        { "value": "critical", "label": "مهم‌ترین شرط منه" }
+      ]
+    },
+    {
+      "id": "insurance_requirement",
+      "section": "money",
+      "title": "بیمه (تأمین اجتماعی) برات چقدر مهمه؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "وقتی استخدام یه شرکتی، معمولاً بیمه با کارفرماست. ولی اگه پروژه‌ای و فریلنسری کار کنی، بیمه رو باید خودت جور کنی.",
+      "options": [
+        { "value": "mandatory", "label": "حتماً باید بیمه داشته باشم" },
+        { "value": "preferred", "label": "دوست دارم داشته باشم، ولی شرط نیست" },
+        { "value": "not_important", "label": "فعلاً برام مهم نیست" }
+      ]
+    },
+    {
+      "id": "work_mode",
+      "section": "style",
+      "title": "دوست داری کجا کار کنی؟",
+      "type": "multi_select",
+      "required": true,
+      "hint": "هر چندتا که برات قابل قبوله رو انتخاب کن. «ترکیبی» یعنی چند روز توی هفته شرکت می‌ری و بقیه روزها از خونه کار می‌کنی.",
+      "options": [
+        { "value": "remote", "label": "دورکاری؛ از خونه یا هر جای دیگه" },
+        { "value": "hybrid", "label": "ترکیبی؛ چند روز شرکت، چند روز خونه" },
+        { "value": "onsite", "label": "حضوری، توی محل کار" },
+        { "value": "field_work", "label": "سرکشی و رفت‌وآمد به محل مشتری‌ها" },
+        { "value": "flexible", "label": "فرقی نمی‌کنه؛ بستگی به کار داره" }
+      ]
+    },
+    {
+      "id": "stress_tolerance",
+      "section": "style",
+      "title": "چقدر فشار کاری رو تحمل می‌کنی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "بعضی کارها مثل نگهداری سرورها یا امنیت، ممکنه یهو یه مشکل فوری پیش بیارن که باید سریع حلش کنی.",
+      "options": [
+        { "value": "low", "label": "کم؛ آرامش برام خیلی مهمه" },
+        { "value": "medium", "label": "متوسط؛ گاهی شلوغی اشکالی نداره" },
+        { "value": "high", "label": "زیاد؛ از چالش و ددلاین نمی‌ترسم" },
+        { "value": "very_high", "label": "خیلی زیاد؛ کارهای فوری و اضطراری هم اوکیه" }
+      ]
+    },
+    {
+      "id": "responsibility_preference",
+      "section": "style",
+      "title": "دوست داری چقدر مسئولیت داشته باشی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "مسئولیت کامل یعنی اگه چیزی خراب شد، اولین نفری که باید درستش کنه تویی.",
+      "options": [
+        { "value": "low", "label": "کارهای مشخص و مسئولیت کم" },
+        { "value": "medium", "label": "چندتا کار رو مستقل جلو ببرم" },
+        { "value": "high", "label": "مسئول کامل یه بخش یا یه سرویس باشم" },
+        { "value": "leadership", "label": "تصمیم‌گیری و مدیریت با من باشه" }
+      ]
+    },
+    {
+      "id": "routine_preference",
+      "section": "style",
+      "title": "روز کاری ایده‌آلت چه شکلیه؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "کار روتین یعنی دقیقاً می‌دونی امروز باید چی کار کنی. کار اکتشافی یعنی هر روز باید یه چیز تازه رو کشف کنی.",
+      "options": [
+        { "value": "routine", "label": "کارهای تکراری و منظم با دستورالعمل مشخص" },
+        { "value": "mixed", "label": "یه کم کار روتین، یه کم مسئله جدید" },
+        { "value": "varied", "label": "هر روز یه کار متفاوت و یه مشکل تازه" },
+        { "value": "exploratory", "label": "تحقیق و آزمایش؛ از ناشناخته‌ها لذت می‌برم" }
+      ]
+    },
+    {
+      "id": "interests",
+      "section": "skills",
+      "title": "کدوم کارها برات جذاب‌ترن؟ (هر چندتا که دوست داری)",
+      "type": "multi_select",
+      "required": true,
+      "hint": "هر کاری که واقعاً ازش لذت می‌بری یا دوست داری یادش بگیری رو انتخاب کن (حداقل یکی).",
+      "options": [
+        { "value": "coding", "label": "برنامه‌نویسی و ساختن نرم‌افزار" },
+        { "value": "visual", "label": "طراحی و ظاهر زیبا" },
+        { "value": "systems", "label": "کار با سرور، شبکه و کامپیوترها" },
+        { "value": "troubleshooting", "label": "پیدا کردن مشکل و درست کردنش" },
+        { "value": "security", "label": "امنیت و پیدا کردن راه‌های نفوذ" },
+        { "value": "data", "label": "کار با عدد، آمار و تحلیل" },
+        { "value": "research", "label": "تحقیق و آزمایش" },
+        { "value": "automation", "label": "خودکار کردن کارهای تکراری" },
+        { "value": "business", "label": "کسب‌وکار، فروش و درآمد" },
+        { "value": "communication", "label": "حرف زدن، مذاکره و هماهنگ کردن آدم‌ها" },
+        { "value": "writing", "label": "نوشتن و تولید محتوا" },
+        { "value": "teaching", "label": "آموزش دادن به بقیه" },
+        { "value": "hardware", "label": "سخت‌افزار و وسیله‌های فیزیکی" },
+        { "value": "product", "label": "ساختن و بهتر کردن یه محصول" },
+        { "value": "routine", "label": "کارهای دقیق و منظم" },
+        { "value": "problem_solving", "label": "حل کردن مسئله‌های پیچیده" }
+      ]
+    },
+    {
+      "id": "current_level",
+      "section": "skills",
+      "title": "الان کجای مسیر IT هستی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "صادق باش؛ اینجا کسی نمره نمی‌ده! هرچی دقیق‌تر جواب بدی، پیشنهادها بیشتر به دردت می‌خورن.",
+      "options": [
+        { "value": "complete_beginner", "label": "از صفر شروع می‌کنم" },
+        { "value": "learning", "label": "دارم یاد می‌گیرم و تمرین می‌کنم" },
+        { "value": "portfolio", "label": "چندتا پروژه یا نمونه‌کار دارم" },
+        { "value": "junior_experience", "label": "کمتر از دو سال سابقه کار دارم" },
+        { "value": "experienced", "label": "چند سال سابقه کار حرفه‌ای دارم" },
+        { "value": "career_switcher", "label": "از یه رشته دیگه می‌خوام بیام سمت IT" }
+      ]
+    },
+    {
+      "id": "time_to_entry",
+      "section": "skills",
+      "title": "تا اولین کارت چقدر وقت برای یاد گرفتن داری؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "منظور زمانیه که می‌تونی قبل از اینکه به درآمد نیاز داشته باشی، صرف یاد گرفتن و ساختن نمونه‌کار کنی.",
+      "options": [
+        { "value": "under_3_months", "label": "کمتر از ۳ ماه" },
+        { "value": "3_to_6_months", "label": "۳ تا ۶ ماه" },
+        { "value": "6_to_12_months", "label": "۶ ماه تا یه سال" },
+        { "value": "over_12_months", "label": "بیشتر از یه سال هم اشکالی نداره" }
+      ]
+    },
+    {
+      "id": "english_level",
+      "section": "skills",
+      "title": "انگلیسیت چطوره؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "توی خیلی از کارهای IT منابع یادگیری انگلیسیه. ولی نگران نباش، با کار کردن بهتر می‌شه.",
+      "options": [
+        { "value": "basic", "label": "ضعیف یا در حد مقدماتی" },
+        { "value": "reading", "label": "می‌تونم متن‌های فنی رو بخونم و بفهمم" },
+        { "value": "working", "label": "می‌تونم بخونم، بنویسم و درباره کار حرف بزنم" },
+        { "value": "advanced", "label": "خیلی خوب و روون" }
+      ]
+    },
+    {
+      "id": "location_scope",
+      "section": "place",
+      "title": "کجا زندگی می‌کنی و کجا می‌تونی کار کنی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "توی تهران و شهرهای بزرگ فرصت‌های حضوری بیشتره. توی شهرهای کوچیک‌تر، دورکاری یا خدمات محلی مهم‌تر می‌شه.",
+      "options": [
+        { "value": "tehran_metro", "label": "تهران و اطرافش" },
+        { "value": "major_cities", "label": "یکی از شهرهای بزرگ ایران" },
+        { "value": "own_city_only", "label": "فقط توی شهر خودم" },
+        { "value": "anywhere_iran_remote", "label": "هر جای ایران، به شرط دورکاری" },
+        { "value": "relocation_possible", "label": "می‌تونم به یه شهر دیگه برم" },
+        { "value": "international_remote_interest", "label": "دوست دارم برای شرکت‌های خارجی هم دورکاری کنم" }
+      ]
+    },
+    {
+      "id": "industry_preferences",
+      "section": "place",
+      "title": "دوست داری توی چه جور جایی کار کنی؟ (اختیاری)",
+      "type": "multi_select",
+      "required": false,
+      "hint": "این سؤال اختیاریه؛ اگه جای خاصی مدنظرت نیست، می‌تونی ازش رد بشی.",
+      "options": [
+        { "value": "software_company", "label": "شرکت نرم‌افزاری یا محصول دیجیتال" },
+        { "value": "startup", "label": "استارتاپ" },
+        { "value": "bank_fintech", "label": "بانک، پرداخت و فین‌تک" },
+        { "value": "telecom", "label": "مخابرات و شرکت‌های اینترنتی" },
+        { "value": "industrial_company", "label": "کارخونه و صنعت" },
+        { "value": "government_it", "label": "اداره‌های دولتی" },
+        { "value": "healthcare", "label": "بیمارستان و حوزه سلامت" },
+        { "value": "ecommerce", "label": "فروشگاه اینترنتی و خرده‌فروشی" },
+        { "value": "digital_agency", "label": "آژانس دیجیتال یا شرکت خدماتی" },
+        { "value": "education", "label": "مدرسه، دانشگاه و آموزش" },
+        { "value": "repair_shop", "label": "تعمیرات و خدمات فنی" },
+        { "value": "no_preference", "label": "فرقی نمی‌کنه" }
+      ]
+    },
+    {
+      "id": "customer_contact",
+      "section": "place",
+      "title": "چقدر دوست داری با مشتری‌ها و آدم‌ها سروکار داشته باشی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "توی کارهایی مثل فروش یا پشتیبانی زیاد با آدم‌ها حرف می‌زنی؛ توی برنامه‌نویسی یا تحلیل داده کمتر.",
+      "options": [
+        { "value": "minimal", "label": "خیلی کم؛ ترجیح می‌دم سرم توی کار خودم باشه" },
+        { "value": "some", "label": "گاهی و به اندازه" },
+        { "value": "frequent", "label": "هر روز هم اشکالی نداره" },
+        { "value": "high", "label": "خیلی زیاد؛ حرف زدن و مذاکره رو دوست دارم" }
+      ]
+    },
+    {
+      "id": "on_call_tolerance",
+      "section": "place",
+      "title": "اگه بیرون از ساعت کاری یه مشکل فوری پیش بیاد، حاضری جواب بدی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "به این می‌گن «آن‌کال» (On-call)؛ یعنی مثلاً نصف‌شب یا روز تعطیل سرور خراب بشه و تو باید درستش کنی.",
+      "options": [
+        { "value": "never", "label": "نه، بیرون از ساعت کاری در دسترس نیستم" },
+        { "value": "rare", "label": "خیلی کم، اونم با هماهنگی قبلی" },
+        { "value": "rotation", "label": "اگه نوبتی باشه و جبرانش رو بدن، اوکیه" },
+        { "value": "yes", "label": "آره، هر وقت لازم باشه هستم" }
+      ]
+    },
+    {
+      "id": "must_have_portfolio",
+      "section": "place",
+      "title": "حاضری قبل از استخدام چندتا نمونه‌کار بسازی؟",
+      "type": "single_select",
+      "required": true,
+      "hint": "نمونه‌کار (پورتفولیو) یعنی یه پروژه کوچیک که نشون بده واقعاً بلدی. خیلی از کارفرماها اول همینو می‌خوان.",
+      "options": [
+        { "value": "yes", "label": "آره، پروژه واقعی یا تمرینی می‌سازم" },
+        { "value": "small", "label": "فقط یه پروژه کوچیک یا چندتا تمرین" },
+        { "value": "no", "label": "نه، ترجیح می‌دم با آزمون یا سابقه‌م استخدام بشم" }
+      ]
+    }
+  ]
+}

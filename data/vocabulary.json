@@ -1,0 +1,524 @@
+{
+  "schema_version": "2.0.0",
+  "rating_legend": {
+    "1": "کم",
+    "2": "نسبتاً کم",
+    "3": "متوسط/وابسته به شرایط",
+    "4": "زیاد",
+    "5": "خیلی زیاد"
+  },
+  "categories": [
+    {
+      "id": "software_development",
+      "title": "توسعه نرم‌افزار",
+      "description": "ساخت، توسعه، نگهداری و یکپارچه‌سازی نرم‌افزار و سرویس‌ها."
+    },
+    {
+      "id": "qa_testing",
+      "title": "تضمین کیفیت و تست",
+      "description": "بررسی کیفیت محصول، طراحی آزمون و خودکارسازی تست‌ها."
+    },
+    {
+      "id": "data_ai",
+      "title": "داده، هوش مصنوعی و یادگیری ماشین",
+      "description": "تحلیل داده، مهندسی داده و ساخت سامانه‌های داده‌محور و AI."
+    },
+    {
+      "id": "infrastructure_operations",
+      "title": "زیرساخت، شبکه و عملیات IT",
+      "description": "پشتیبانی، سرور، شبکه، کلاد، پایش و پایداری سرویس‌ها."
+    },
+    {
+      "id": "cybersecurity",
+      "title": "امنیت سایبری",
+      "description": "پایش، ارزیابی، دفاع، مهندسی امنیت و مدیریت ریسک."
+    },
+    {
+      "id": "design_product",
+      "title": "طراحی، محصول و تحلیل کسب‌وکار",
+      "description": "طراحی تجربه و رابط، تعریف محصول، تحلیل نیازمندی و مدیریت تحویل."
+    },
+    {
+      "id": "enterprise_apps",
+      "title": "نرم‌افزارهای سازمانی و پیاده‌سازی",
+      "description": "ERP/CRM، استقرار نرم‌افزار، تحلیل فرایند و اتصال سامانه‌ها."
+    },
+    {
+      "id": "sales_customer_success",
+      "title": "فروش و ارتباط با مشتری در فناوری",
+      "description": "فروش فنی، مشاوره پیش از فروش، موفقیت مشتری و پشتیبانی محصول."
+    },
+    {
+      "id": "digital_marketing_content",
+      "title": "بازاریابی دیجیتال، سئو و محتوا",
+      "description": "جذب مخاطب آنلاین، بهینه‌سازی سایت، تحلیل وب و محتوای تخصصی."
+    },
+    {
+      "id": "education_communication",
+      "title": "آموزش، مستندسازی و ارتباطات فنی",
+      "description": "آموزش، انتقال دانش، مستندسازی و تولید محتوای فنی."
+    },
+    {
+      "id": "hardware_iot",
+      "title": "سخت‌افزار، تجهیزات، IoT و سامانه‌های نهفته",
+      "description": "تعمیر، نصب، راه‌اندازی تجهیزات و توسعه نرم‌افزار نزدیک به سخت‌افزار."
+    },
+    {
+      "id": "specialized_it",
+      "title": "حوزه‌های تخصصی و بین‌رشته‌ای",
+      "description": "نقش‌های تخصصی مانند GIS، بازی، اتوماسیون و تحلیل سامانه‌ها."
+    }
+  ],
+  "interest_tags": [
+    {
+      "value": "coding",
+      "label": "کدنویسی"
+    },
+    {
+      "value": "visual",
+      "label": "طراحی بصری"
+    },
+    {
+      "value": "systems",
+      "label": "سیستم و زیرساخت"
+    },
+    {
+      "value": "troubleshooting",
+      "label": "عیب‌یابی"
+    },
+    {
+      "value": "security",
+      "label": "امنیت"
+    },
+    {
+      "value": "data",
+      "label": "داده و تحلیل"
+    },
+    {
+      "value": "research",
+      "label": "پژوهش"
+    },
+    {
+      "value": "automation",
+      "label": "اتوماسیون"
+    },
+    {
+      "value": "business",
+      "label": "کسب‌وکار و فرایند"
+    },
+    {
+      "value": "communication",
+      "label": "ارتباط و هماهنگی"
+    },
+    {
+      "value": "writing",
+      "label": "نوشتن و مستندسازی"
+    },
+    {
+      "value": "teaching",
+      "label": "آموزش"
+    },
+    {
+      "value": "hardware",
+      "label": "سخت‌افزار"
+    },
+    {
+      "value": "product",
+      "label": "محصول"
+    },
+    {
+      "value": "routine",
+      "label": "کار روتین و دقیق"
+    },
+    {
+      "value": "problem_solving",
+      "label": "حل مسئله"
+    },
+    {
+      "value": "technology",
+      "label": "فناوری و یادگیری فنی"
+    }
+  ],
+  "workplace_types": [
+    {
+      "value": "software_company",
+      "label": "شرکت نرم‌افزاری"
+    },
+    {
+      "value": "startup",
+      "label": "استارتاپ"
+    },
+    {
+      "value": "digital_agency",
+      "label": "آژانس دیجیتال"
+    },
+    {
+      "value": "smb",
+      "label": "کسب‌وکار کوچک/متوسط"
+    },
+    {
+      "value": "enterprise_it",
+      "label": "واحد IT سازمان بزرگ"
+    },
+    {
+      "value": "bank_fintech",
+      "label": "بانک/فین‌تک/پرداخت"
+    },
+    {
+      "value": "telecom",
+      "label": "مخابرات/ISP"
+    },
+    {
+      "value": "data_center",
+      "label": "دیتاسنتر/هاستینگ"
+    },
+    {
+      "value": "industrial_company",
+      "label": "صنعت/تولید"
+    },
+    {
+      "value": "government_it",
+      "label": "دولت/بخش عمومی"
+    },
+    {
+      "value": "hospital",
+      "label": "بیمارستان/سلامت"
+    },
+    {
+      "value": "ecommerce",
+      "label": "تجارت الکترونیکی"
+    },
+    {
+      "value": "publisher",
+      "label": "رسانه/ناشر"
+    },
+    {
+      "value": "school_university",
+      "label": "مدرسه/دانشگاه"
+    },
+    {
+      "value": "training_center",
+      "label": "مرکز آموزشی"
+    },
+    {
+      "value": "repair_shop",
+      "label": "تعمیرگاه/فروشگاه خدماتی"
+    },
+    {
+      "value": "freelance",
+      "label": "خوداشتغالی/فریلنسری"
+    },
+    {
+      "value": "consulting",
+      "label": "شرکت مشاوره"
+    },
+    {
+      "value": "research",
+      "label": "پژوهش"
+    },
+    {
+      "value": "installation_company",
+      "label": "شرکت نصب و اجرا"
+    },
+    {
+      "value": "electronics_company",
+      "label": "شرکت الکترونیک"
+    },
+    {
+      "value": "manufacturing",
+      "label": "کارخانه/تولید"
+    },
+    {
+      "value": "security_company",
+      "label": "شرکت امنیت"
+    },
+    {
+      "value": "cloud_provider",
+      "label": "ارائه‌دهنده زیرساخت/کلاد"
+    },
+    {
+      "value": "saas",
+      "label": "محصول اشتراکی/SaaS"
+    },
+    {
+      "value": "online_education",
+      "label": "آموزش آنلاین"
+    },
+    {
+      "value": "residential",
+      "label": "مشتریان خانگی"
+    },
+    {
+      "value": "retail",
+      "label": "خرده‌فروشی"
+    },
+    {
+      "value": "marketing_agency",
+      "label": "تیم بازاریابی"
+    },
+    {
+      "value": "sales_team",
+      "label": "تیم فروش"
+    },
+    {
+      "value": "technical_vendor",
+      "label": "تأمین‌کننده فنی"
+    },
+    {
+      "value": "automotive",
+      "label": "خودرو"
+    },
+    {
+      "value": "agriculture",
+      "label": "کشاورزی"
+    },
+    {
+      "value": "urban_planning",
+      "label": "برنامه‌ریزی شهری"
+    },
+    {
+      "value": "healthcare",
+      "label": "سلامت"
+    },
+    {
+      "value": "outsourcing",
+      "label": "برون‌سپاری"
+    },
+    {
+      "value": "ai_company",
+      "label": "شرکت داده/هوش مصنوعی"
+    },
+    {
+      "value": "automation_vendor",
+      "label": "ارائه‌دهنده راهکارهای اتوماسیون"
+    },
+    {
+      "value": "education",
+      "label": "آموزش و دانشگاه"
+    },
+    {
+      "value": "game_studio",
+      "label": "استودیوی بازی‌سازی"
+    },
+    {
+      "value": "hardware_vendor",
+      "label": "فروشنده یا تأمین‌کننده سخت‌افزار"
+    },
+    {
+      "value": "hosting_provider",
+      "label": "شرکت هاستینگ و میزبانی"
+    },
+    {
+      "value": "in_house_it",
+      "label": "واحد فناوری داخلی کسب‌وکار"
+    },
+    {
+      "value": "isp",
+      "label": "ارائه‌دهنده اینترنت (ISP)"
+    },
+    {
+      "value": "marketing_team",
+      "label": "تیم بازاریابی"
+    },
+    {
+      "value": "remote_team",
+      "label": "تیم دورکار"
+    }
+  ],
+  "industry_aliases": {
+    "software_company": [
+      "software_company",
+      "saas"
+    ],
+    "startup": [
+      "startup"
+    ],
+    "bank_fintech": [
+      "bank_fintech"
+    ],
+    "telecom": [
+      "telecom",
+      "isp"
+    ],
+    "industrial_company": [
+      "industrial_company",
+      "manufacturing"
+    ],
+    "government_it": [
+      "government_it"
+    ],
+    "healthcare": [
+      "healthcare",
+      "hospital"
+    ],
+    "ecommerce": [
+      "ecommerce",
+      "retail"
+    ],
+    "digital_agency": [
+      "digital_agency",
+      "marketing_agency",
+      "outsourcing",
+      "consulting"
+    ],
+    "education": [
+      "education",
+      "school_university",
+      "training_center",
+      "online_education"
+    ],
+    "repair_shop": [
+      "repair_shop",
+      "residential"
+    ]
+  },
+  "role_labels": [
+    {
+      "value": "market_opportunity_relatively_good",
+      "label": "فرصت شغلی نسبتاً خوب"
+    },
+    {
+      "value": "remote_compatible",
+      "label": "مناسب دورکاری"
+    },
+    {
+      "value": "freelance_possible",
+      "label": "امکان کار پروژه‌ای و فریلنسری"
+    },
+    {
+      "value": "requires_strong_foundation",
+      "label": "نیازمند پایه فنی محکم"
+    },
+    {
+      "value": "high_income_ceiling",
+      "label": "سقف درآمد بالا"
+    },
+    {
+      "value": "insurance_more_likely_in_employment",
+      "label": "بیمه بیشتر در حالت استخدامی"
+    },
+    {
+      "value": "high_stress_or_urgency_possible",
+      "label": "احتمال فشار کاری یا کار فوری (آن‌کال)"
+    },
+    {
+      "value": "entry_relatively_accessible",
+      "label": "ورود نسبتاً آسان"
+    }
+  ],
+  "role_fields": {
+    "ratings": [
+      {
+        "key": "entry_difficulty",
+        "label": "سختی ورود",
+        "help": "۱ یعنی ورود به این شغل آسونه؛ ۵ یعنی یادگیری طولانی و سختی لازم داره."
+      },
+      {
+        "key": "relative_market_opportunity",
+        "label": "فرصت شغلی در بازار ایران",
+        "help": "برآورد کلی از اینکه چقدر کار پیدا می‌شه؛ تضمین استخدام نیست."
+      },
+      {
+        "key": "income_ceiling",
+        "label": "سقف درآمد",
+        "help": "پتانسیل درآمد در بلندمدت و با تجربه؛ نه حقوق شروع کار."
+      },
+      {
+        "key": "job_stability",
+        "label": "ثبات شغلی",
+        "help": "۵ یعنی کار ثابت و قابل پیش‌بینی؛ ۱ یعنی وابسته به پروژه و پرنوسان."
+      },
+      {
+        "key": "insurance_likelihood_in_employee_roles",
+        "label": "احتمال بیمه در حالت استخدامی",
+        "help": "احتمال اینکه در استخدام این شغل بیمه تأمین اجتماعی داشته باشی؛ تضمین نیست."
+      },
+      {
+        "key": "stress_level",
+        "label": "فشار کاری",
+        "help": "۵ یعنی ددلاین فشرده یا کار فوری و اضطراری زیاده."
+      },
+      {
+        "key": "responsibility_level",
+        "label": "میزان مسئولیت",
+        "help": "۵ یعنی مسئولیت نهایی و تصمیم‌گیری با این شغله."
+      },
+      {
+        "key": "routine_level",
+        "label": "روتین بودن کار",
+        "help": "۱ یعنی هر روز کار متفاوت و مسئله‌محور؛ ۵ یعنی تکراری و قابل پیش‌بینی."
+      }
+    ],
+    "fit_groups": [
+      {
+        "key": "work_mode_fit",
+        "label": "تناسب با محل کار",
+        "help": "این شغل چقدر با هر مدل محل کار جوره؟",
+        "options": [
+          {
+            "key": "remote",
+            "label": "دورکاری"
+          },
+          {
+            "key": "hybrid",
+            "label": "ترکیبی (هیبرید)"
+          },
+          {
+            "key": "onsite",
+            "label": "حضوری"
+          }
+        ]
+      },
+      {
+        "key": "client_type_fit",
+        "label": "تناسب با نوع مشتری",
+        "help": "این شغل چقدر با هر نوع مشتری یا کارفرما جوره؟",
+        "options": [
+          {
+            "key": "individual",
+            "label": "اشخاص حقیقی"
+          },
+          {
+            "key": "small_business",
+            "label": "کسب‌وکار کوچک و متوسط"
+          },
+          {
+            "key": "medium_large_organization",
+            "label": "شرکت و سازمان بزرگ"
+          },
+          {
+            "key": "public_sector",
+            "label": "دولتی و عمومی"
+          }
+        ]
+      },
+      {
+        "key": "work_arrangement_fit",
+        "label": "تناسب با شیوه کار",
+        "help": "این شغل چقدر با هر شیوه همکاری جوره؟",
+        "options": [
+          {
+            "key": "employee",
+            "label": "استخدام رسمی با حقوق ثابت"
+          },
+          {
+            "key": "freelance",
+            "label": "پروژه‌ای برای اشخاص حقیقی یا حقوقی"
+          },
+          {
+            "key": "project_contract",
+            "label": "پیمانکاری برای شرکت‌ها"
+          },
+          {
+            "key": "consultant",
+            "label": "مشاوره"
+          },
+          {
+            "key": "self_employed",
+            "label": "کسب‌وکار شخصی"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: PHP version
+        run: php --version
+
+      - name: Lint every PHP file
+        run: find . -name '*.php' -not -path './.git/*' -print0 | xargs -0 -n1 php -l
+
+      - name: Run tests
+        run: php tests/run.php
+
+      - name: Build the plugin zip
+        run: php tools/build-zip.php
+
+      - name: Keep the zip as a download
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-zip
+          path: dist/*.zip
